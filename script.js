@@ -277,6 +277,23 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function initBehaviors(content) {
+        // Mobile nav toggle
+        const navToggle = document.querySelector('.nav-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+        if (navToggle && navMenu) {
+            navToggle.addEventListener('click', function() {
+                const isActive = navMenu.classList.toggle('active');
+                navToggle.setAttribute('aria-expanded', String(isActive));
+            });
+            // Close menu when a link is clicked
+            navMenu.addEventListener('click', function(e) {
+                const target = e.target;
+                if (target && target.closest('a')) {
+                    navMenu.classList.remove('active');
+                    navToggle.setAttribute('aria-expanded', 'false');
+                }
+            });
+        }
         // Smooth scrolling for navigation links
         const navLinks = document.querySelectorAll('.nav-menu a[href^="#"]');
         navLinks.forEach(link => {
@@ -330,6 +347,34 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         }
         window.addEventListener('scroll', updateTitleBar);
+
+        // Nav logo visibility and navbar scroll effect
+        function updateNavLogo() {
+            const homeSection = document.querySelector('#home');
+            const navLogo = document.querySelector('.nav-logo');
+            const navbar = document.querySelector('.navbar');
+            if (!homeSection || !navLogo || !navbar) return;
+            
+            const homeBottom = homeSection.offsetTop + homeSection.offsetHeight;
+            const scrollPos = window.scrollY;
+            
+            // Show/hide logo based on scroll position
+            if (scrollPos > homeBottom - 200) {
+                navLogo.classList.add('visible');
+            } else {
+                navLogo.classList.remove('visible');
+            }
+            
+            // Add scrolled class to navbar for enhanced appearance
+            if (scrollPos > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        }
+        window.addEventListener('scroll', updateNavLogo);
+        // Initial check
+        updateNavLogo();
 
         // Handle mailto links
         const mailtoLinks = document.querySelectorAll('a[href^="mailto:"]');
