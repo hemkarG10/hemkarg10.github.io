@@ -1,0 +1,196 @@
+{
+  "site": {
+    "title": "Hemkar Goswami - Portfolio",
+    "name": "Hemkar Goswami",
+    "role": "Software Engineer & Product Manager",
+    "description": "Data-driven software engineer transitioning into Product Management, combining technical expertise with strategic product thinking. Currently pursuing my Master's at UT Austin, passionate about building scalable solutions and driving product innovation.",
+    "contact": {
+      "email": "hemkarg@utexas.edu",
+      "phone": "(737) 328-2702",
+      "location": "Austin, Texas",
+      "github": "https://github.com/hemkarG10",
+      "linkedin": "https://www.linkedin.com/in/hemkarg"
+    },
+    "ctaPrimary": "Get in Touch",
+    "ctaSecondary": "View Experience"
+  },
+  "sections": {
+    "nav": [
+      { "label": "Home", "href": "#home" },
+      { "label": "Experience", "href": "#experience" },
+      { "label": "Projects", "href": "#projects" },
+      { "label": "Skills", "href": "#skills" },
+      { "label": "Education", "href": "#education" },
+      { "label": "Research", "href": "#research" },
+      { "label": "Contact", "href": "#contact" }
+    ],
+    "whyProduct": {
+      "title": "Why Product?",
+      "description": "At Zenoti, I spearheaded the HyperConnect voice platform that contributed to $10M ARR and led cross-functional teams to deliver scalable solutions. I believe in leveraging analytical thinking and user empathy to build meaningful products that solve real user problems."
+    },
+    "experience": {
+      "title": "Professional Experience",
+      "items": [
+        {
+          "role": "Software Engineer 2",
+          "company": "Zenoti",
+          "duration": "August 2022 - June 2025",
+          "location": "Hyderabad, India",
+          "achievements": [
+            "Led the launch of HyperConnect voice platform, scaling to 100K+ calls/month and contributing to $10M ARR; worked cross-functionally to define scope, roadmap, and MVP.",
+            "Owned delivery of in-house voice MVP, balancing technical trade-offs with strategic business goals—helped unlock 25% new-logo revenue and supported 50% YoY usage growth",
+            "Embedded journey-level analytics to identify user drop-offs and guided UX improvements based on behavioural data; implemented performance optimizations (pagination, CDN, lazy loading), cutting page load times from 8s to 2s",
+            "Managed resolution of 10+ Sev-1 incidents through coordinated response with QA and product teams; introduced sprint-level safeguards improving release stability and team velocity"
+          ]
+        },
+        {
+          "role": "Software Engineer",
+          "company": "Zenoti",
+          "duration": "August 2022 - August 2024",
+          "location": "Hyderabad, India",
+          "achievements": [
+            "+30% throughput and 50% P1 reduction by modernizing C#/.NET Core monolith",
+            "Developed customer apps with Flutter, iOS, Android; emoji support lifted engagement 90%",
+            "Drove backlog and cross-platform delivery (Flutter + .NET), 10% speed boost, fewer crashes"
+          ]
+        },
+        {
+          "role": "Software Engineer Intern",
+          "company": "Zenoti",
+          "duration": "February 2022 - August 2022",
+          "location": "Hyderabad, India",
+          "achievements": [
+            "Collaborated with senior engineers and PMs to prototype UI/UX enhancements",
+            "Contributed to sprint planning and cross-team syncs for timely delivery",
+            "Improved release efficiency by 20% via testing, code reviews, and tooling"
+          ]
+        }
+      ]
+    },
+    "projects": {
+      "title": "Key Projects",
+      "items": [
+        {
+          "name": "Hodu Academy (EdTech Startup)",
+          "achievements": [
+            "Hybrid operational model integrating offline centers with digital platform—5x onboarding, Tier-2/3 expansion",
+            "Defined vision and roadmap; 40% MoM user growth validating problem-solution fit",
+            "Led pods via OKRs, backlog, and sprints; strengthened execution and trust"
+          ],
+          "stats": [
+            { "number": "5x", "label": "Onboarding" },
+            { "number": "40%", "label": "User Growth" }
+          ]
+        },
+        {
+          "name": "Classification of Effect on Real Estates in Mumbai during Covid-19",
+          "achievements": [
+            "End-to-end research and ML pipeline to quantify Covid-19 impact (Linear Regression, KNN, K-Means)",
+            "Feature engineering and evaluation for pricing insights; achieved 99% accuracy",
+            "Published in Springer Nature Computer Science"
+          ],
+          "stats": [
+            { "number": "99%", "label": "Accuracy" },
+            { "number": "Springer", "label": "Publication" }
+          ]
+        },
+        {
+          "name": "Slope Stability Prediction Research & Mobile Application",
+          "achievements": [
+            "Research on predicting slope stability for rock and residual soil slopes (April 2022)",
+            "Analyzed factor of safety with SQL/Python; 20% model accuracy improvement",
+            "Mobile app using neural networks achieving 99% prediction accuracy"
+          ],
+          "stats": [
+            { "number": "99%", "label": "ML Accuracy" },
+            { "number": "20%", "label": "Model Improvement" }
+          ]
+        }
+      ]
+    },
+    "skills": {
+      "title": "Technical Skills",
+      "programming": ["C", "C#", "C++", "Java", "Python", "SQL", "Dart", "HTML", "CSS", "JavaScript", "R"],
+      "technical": ["Product Management", "API Design", "API Development", "API Integration", "Data Analysis", "Machine Learning", "Artificial Neural Networks", "Cross-platform Development", "Research & Development"],
+      "technologies": ["Flutter", "AWS", "Kubernetes", "Docker", "iOS", "Android", ".NET Core"]
+    },
+    "education": {
+      "title": "Education",
+      "items": [
+        {
+          "institution": "The University of Texas at Austin",
+          "degree": "Master of Science, Information Technology & Management",
+          "graduation": "Expected May 2026"
+        },
+        {
+          "institution": "Vellore Institute of Technology",
+          "degree": "Bachelor of Technology in Computer Science",
+          "graduation": "Vellore, India"
+        }
+      ]
+    },
+    "research": {
+      "title": "Research Publications",
+      "items": [
+        {
+          "name": "Slope Stability Prediction for Rock and Residual Soil Slopes",
+          "journal": "Civil Engineering Journal, April 2022",
+          "description": "Published research on predicting slope stability using machine learning techniques, contributing to the field of civil engineering with practical applications in infrastructure safety.",
+          "highlights": ["Machine Learning", "Civil Engineering", "Neural Networks", "Data Analysis"],
+          "icon": "microscope"
+        },
+        {
+          "name": "Real Estate Market Analysis During COVID-19",
+          "journal": "Springer Nature Computer Science",
+          "description": "Research publication analyzing the impact of COVID-19 on Mumbai's real estate market using advanced machine learning algorithms and data science techniques.",
+          "highlights": ["Data Science", "Real Estate", "COVID-19 Impact", "ML Algorithms"],
+          "icon": "chart-line"
+        }
+      ]
+    },
+    "certifications": {
+      "title": "Certifications",
+      "items": [
+        { "name": "Gold Certificate – Security Analyst", "details": "SSC/Q0901, NASSCOM, Level 7, 2021", "icon": "shield-alt" },
+        { "name": "Databases and SQL for Data Science", "details": "IBM, November 2019", "icon": "database" },
+        { "name": "Fundamentals of Parallelism", "details": "Intel Corporation, October 2019", "icon": "microchip" }
+      ]
+    },
+    "community": {
+      "title": "Community Leadership",
+      "items": [
+        { "name": "COVID-19 Relief Volunteer", "description": "Coordinated supply drives, awareness campaigns and received recognition by the State Government of Uttar Pradesh for relief activities during 2020 pandemic", "icon": "hands-helping" },
+        { "name": "Kashika Shakti Club", "description": "Drove tech and engagement strategies for women empowerment and child education", "icon": "female" }
+      ]
+    },
+    "interests": {
+      "title": "My 5-9 after my 9-5!",
+      "items": [
+        { "name": "Sports & Fitness", "description": "Following FC Barcelona and Messi, staying active with regular workouts and fitness routines.", "icon": "futbol" },
+        { "name": "Entertainment", "description": "Big fan of The Office, anime, manga, and superhero movies. Love discovering new shows and stories.", "icon": "tv" },
+        { "name": "Travel & Exploration", "description": "Love exploring new places, especially beaches and coastal destinations. Always up for new adventures.", "icon": "plane" }
+      ]
+    },
+    "contact": {
+      "title": "Let's chat!",
+      "description": "Reach out to me to talk software engineering, product management, or just to connect.",
+      "methods": [
+        { "type": "Email", "value": "hemkarg@utexas.edu", "href": "mailto:hemkarg@utexas.edu", "icon": "envelope" },
+        { "type": "Phone", "value": "(737) 328-2702", "href": "tel:+17373282702", "icon": "phone" },
+        { "type": "Location", "value": "Austin, Texas", "href": "https://maps.google.com/?q=Austin,Texas", "icon": "map-marker-alt", "external": true }
+      ],
+      "social": [
+        { "platform": "GitHub", "href": "https://github.com/hemkarG10", "icon": "github" },
+        { "platform": "LinkedIn", "href": "https://www.linkedin.com/in/hemkarg", "icon": "linkedin" },
+        { "platform": "Email", "href": "mailto:hemkarg@utexas.edu", "icon": "envelope" }
+      ],
+      "ctaEmail": "Send Email",
+      "ctaCall": "Call Now",
+      "ctaMap": "View on Map"
+    },
+    "footer": {
+      "copyright": "© 2025 Hemkar Goswami. All rights reserved."
+    }
+  }
+}
+
