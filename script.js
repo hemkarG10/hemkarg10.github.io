@@ -137,15 +137,25 @@ document.addEventListener('DOMContentLoaded', function() {
             if (progEl && Array.isArray(skills.programming)) {
                 progEl.innerHTML = skills.programming.map(s => `<span class="skill-tag">${s}</span>`).join('');
             }
-            // Technical skills
-            const techEl = document.querySelector('#skills .skill-category:nth-of-type(2) .skill-tags');
-            if (techEl && Array.isArray(skills.technical)) {
-                techEl.innerHTML = skills.technical.map(s => `<span class="skill-tag">${s}</span>`).join('');
+            // AI & ML
+            const aiEl = document.querySelector('#skills .skill-category:nth-of-type(2) .skill-tags');
+            if (aiEl && Array.isArray(skills.ai_ml)) {
+                aiEl.innerHTML = skills.ai_ml.map(s => `<span class="skill-tag">${s}</span>`).join('');
             }
-            // Technologies & tools
-            const toolsEl = document.querySelector('#skills .skill-category:nth-of-type(3) .skill-tags');
-            if (toolsEl && Array.isArray(skills.technologies)) {
-                toolsEl.innerHTML = skills.technologies.map(s => `<span class="skill-tag">${s}</span>`).join('');
+            // Backend & Systems matches backend_systems
+            const backendEl = document.querySelector('#skills .skill-category:nth-of-type(3) .skill-tags');
+            if (backendEl && Array.isArray(skills.backend_systems)) {
+                backendEl.innerHTML = skills.backend_systems.map(s => `<span class="skill-tag">${s}</span>`).join('');
+            }
+            // Product & Strategy matches product_strategic
+            const prodEl = document.querySelector('#skills .skill-category:nth-of-type(4) .skill-tags');
+            if (prodEl && Array.isArray(skills.product_strategic)) {
+                prodEl.innerHTML = skills.product_strategic.map(s => `<span class="skill-tag">${s}</span>`).join('');
+            }
+            // Tools matches tools
+            const toolsEl = document.querySelector('#skills .skill-category:nth-of-type(5) .skill-tags');
+            if (toolsEl && Array.isArray(skills.tools)) {
+                toolsEl.innerHTML = skills.tools.map(s => `<span class="skill-tag">${s}</span>`).join('');
             }
         }
 

@@ -2,8 +2,8 @@
   "site": {
     "title": "Hemkar Goswami - Portfolio",
     "name": "Hemkar Goswami",
-    "role": "Software Engineer & Product Manager",
-    "description": "Data-driven software engineer transitioning into Product Management, combining technical expertise with strategic product thinking. Currently pursuing my Master's at UT Austin, passionate about building scalable solutions and driving product innovation.",
+    "role": "Product Developer (Software Engineer & Product Manager)",
+    "description": "Product Developer bridging the gap between engineering and product strategy. With a strong foundation in AI/ML and full-stack development, I build scalable, data-driven solutions that solve real user problems. Currently pursuing my Master's at UT Austin.",
     "contact": {
       "email": "hemkarg@utexas.edu",
       "phone": "(737) 328-2702",
@@ -16,31 +16,91 @@
   },
   "sections": {
     "nav": [
-      { "label": "Home", "href": "#home" },
-      { "label": "Experience", "href": "#experience" },
-      { "label": "Projects", "href": "#projects" },
-      { "label": "Skills", "href": "#skills" },
-      { "label": "Education", "href": "#education" },
-      { "label": "Research", "href": "#research" },
-      { "label": "Contact", "href": "#contact" }
+      {
+        "label": "Home",
+        "href": "#home"
+      },
+      {
+        "label": "Experience",
+        "href": "#experience"
+      },
+      {
+        "label": "Projects",
+        "href": "#projects"
+      },
+      {
+        "label": "Skills",
+        "href": "#skills"
+      },
+      {
+        "label": "Education",
+        "href": "#education"
+      },
+      {
+        "label": "Research",
+        "href": "#research"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
     ],
     "whyProduct": {
       "title": "Why Product?",
-      "description": "At Zenoti, I spearheaded the HyperConnect voice platform that contributed to $10M ARR and led cross-functional teams to deliver scalable solutions. I believe in leveraging analytical thinking and user empathy to build meaningful products that solve real user problems."
+      "description": "As a Product Developer, I bridge the technical and strategic worlds. My background as a Software Engineer allows me to build feasible, scalable solutions, while my Product Management experience ensures those solutions solve the right problems and drive business value. I leverage AI and data to create products that truly impact."
     },
     "experience": {
       "title": "Professional Experience",
       "items": [
         {
+          "role": "Product Management Consultant",
+          "company": "Brumley Institute for Graduate Entrepreneurship",
+          "duration": "Jan 2026 - Present",
+          "location": "Austin, USA",
+          "description": "Advised early-stage and growth-stage ventures on go-to-market strategy, pricing, financial modeling, and commercialization across AI and healthcare domains.",
+          "achievements": [
+            "Regulator AI (Enterprise AI / Compliance Tech): Led GTM beachhead validation, synthesizing market data and customer discovery into a data-backed recommendation for primary enterprise segments.",
+            "Defined User Champion and Economic Buyer personas, mapping incentives, buying triggers, and enterprise procurement dynamics.",
+            "Developed a value proposition and messaging matrix aligned to regulatory pain points, enabling focused enterprise sales outreach.",
+            "Built a Top-100 enterprise target account list, prioritized by industry fit, regulatory exposure, and revenue potential.",
+            "Designed a 3-tier pricing & packaging strategy (Professional / Business / Enterprise) with a feature-differentiated value ladder.",
+            "Created a financial model forecasting revenue, COGS, LTV, and pricing sensitivity to support leadership pricing decisions.",
+            "Authored a sales negotiation playbook outlining discounting thresholds, anchoring strategy, and enterprise deal mechanics.",
+            "Muid Mecca Medical (MedTech): Evaluated licensing-only commercialization feasibility, producing a lifecycle impact brief and ecosystem map.",
+            "Built hospital & OEM licensing economics, including pricing matrices, revenue scenarios, and investor-ready unit economics.",
+            "Conducted financial reasonableness and valuation analysis, delivering sensitivity models and valuation justification memos for investors.",
+            "Developed long-range financial projections and an IPO-oriented pro-forma model aligned with healthcare capital markets expectations.",
+            "Researched global cleft prevalence trends and authored a global cleft workforce shortage report modeling supply-demand gaps.",
+            "Designed a cleft-center talent pipeline strategy, creating partnership blueprints and a scalable workforce flywheel."
+          ]
+        },
+        {
+          "role": "Data Engineer (Capstone Project)",
+          "company": "CoPointAI",
+          "duration": "Jan 2026 - Present",
+          "location": "Austin, USA",
+          "description": "Natural Language Agent for Financial Intelligence.",
+          "achievements": [
+            "Data Engineering & Architecture: Lead the integration of Microsoft Fabric Lakehouse and Warehouse environments, establishing a unified data foundation.",
+            "SQL & Semantic Modeling: Architecting semantic models and T-SQL query templates to enable seamless translation of natural language questions into business insights.",
+            "Scalability & Performance: Optimizing data ingestion and transformation pipelines to support a high-accuracy (target $\\ge 80\\%$) Natural Language Query (NLQ) engine.",
+            "Cross-Functional Collaboration: Partnering with AI/ML and Full-Stack developers to implement a Retrieval-Augmented Generation (RAG) pipeline with grounded, cited responses.",
+            "Product-Led Insight: Driving 'speed to insight' by developing features for proactive anomaly detection, reducing manual analyst workloads from hours to minutes."
+          ]
+        },
+        {
           "role": "Software Engineer 2",
           "company": "Zenoti",
-          "duration": "August 2022 - June 2025",
+          "duration": "August 2024 - June 2025",
           "location": "Hyderabad, India",
           "achievements": [
-            "Led the launch of HyperConnect voice platform, scaling to 100K+ calls/month and contributing to $10M ARR; worked cross-functionally to define scope, roadmap, and MVP.",
-            "Owned delivery of in-house voice MVP, balancing technical trade-offs with strategic business goals—helped unlock 25% new-logo revenue and supported 50% YoY usage growth",
-            "Embedded journey-level analytics to identify user drop-offs and guided UX improvements based on behavioural data; implemented performance optimizations (pagination, CDN, lazy loading), cutting page load times from 8s to 2s",
-            "Managed resolution of 10+ Sev-1 incidents through coordinated response with QA and product teams; introduced sprint-level safeguards improving release stability and team velocity"
+            "AI Scribe: Led end-to-end development from a 60-hour hackathon POC to a production platform used by 100+ beta customers.",
+            "Architected a scalable, serverless AWS solution achieving $80-90\\%$ reduction in documentation time and $95\\%+$ accuracy.",
+            "Spearheaded the HyperConnect voice platform, determining scope and roadmap to scale to 100K+ calls/month, contributing to $10M ARR.",
+            "Implemented generative AI-powered call analysis and automation, resulting in a $30\\%$ increase in conversion rates.",
+            "Engineered an in-house voice MVP utilizing Twilio, unlocking $25\\%$ new-logo revenue and supporting $50\\%$ YoY usage growth.",
+            "Ensured compliance with complex international regulations (UK, Singapore, US), reducing critical delivery failures by $40\\%$.",
+            "Managed 10+ Sev-1 incidents via coordinated response; introduced sprint safeguards that improved release stability."
           ]
         },
         {
@@ -49,9 +109,11 @@
           "duration": "August 2022 - August 2024",
           "location": "Hyderabad, India",
           "achievements": [
-            "+30% throughput and 50% P1 reduction by modernizing C#/.NET Core monolith",
-            "Developed customer apps with Flutter, iOS, Android; emoji support lifted engagement 90%",
-            "Drove backlog and cross-platform delivery (Flutter + .NET), 10% speed boost, fewer crashes"
+            "Modernized C#/.NET Core monolith, boosting throughput by $30\\%$ and reducing P1 incidents by $50\\%$ through strategic tech debt payoff.",
+            "Integrated Instagram and WhatsApp Business APIs into HyperConnect, enhancing cross-functional collaboration and customer-facing solutions.",
+            "Led deployment of third-party integrations (AWS QuickSight, Gainsight), resolving complex technical challenges via robust data pipelines.",
+            "Utilized behavioral data analytics to drive UX improvements, reducing page load times by $75\\%$.",
+            "Drove backlog prioritization and cross-platform delivery (Flutter + .NET), resulting in a $10\\%$ speed boost and fewer crashes."
           ]
         },
         {
@@ -60,9 +122,41 @@
           "duration": "February 2022 - August 2022",
           "location": "Hyderabad, India",
           "achievements": [
-            "Collaborated with senior engineers and PMs to prototype UI/UX enhancements",
-            "Contributed to sprint planning and cross-team syncs for timely delivery",
-            "Improved release efficiency by 20% via testing, code reviews, and tooling"
+            "Translated ambiguous product requirements into precise technical specifications in Flutter while collaborating with PMs and senior engineers.",
+            "Prototyped UI/UX enhancements and improved release efficiency by $20\\%$ via testing and tooling.",
+            "Contributed to sprint planning and cross-team syncs for timely delivery."
+          ]
+        },
+        {
+          "role": "Research Intern",
+          "company": "IIT-BHU",
+          "duration": "July 2021 - November 2021",
+          "location": "Varanasi, India",
+          "achievements": [
+            "IoT & Machine Learning: Conducted research on time series analysis for IoT-based HVAC system automation for occupancy prediction.",
+            "Analytical Models: Evaluated occupancy prediction using Linear Discriminant Analysis (LDA) and Dempster Schafer Evidence Theory, achieving up to $99.98\\%$ accuracy.",
+            "Training: Facilitated peer-based research by training others in machine learning and data analysis for upcoming publications."
+          ]
+        },
+        {
+          "role": "Project Intern",
+          "company": "Hewlett Packard Enterprise (HPE)",
+          "duration": "March 2021 - July 2021",
+          "location": "Bengaluru, India",
+          "achievements": [
+            "CI/CD & Microservices: Spearheaded investigations into microservice application behavior within CI/CD frameworks.",
+            "Orchestration: Developed and deployed Dockerized microservices on Kubernetes, performing automated load testing for scalability.",
+            "Chaos Testing: Designed and executed chaos testing use cases using Litmus tools, strengthening system resilience by $25\\%$."
+          ]
+        },
+        {
+          "role": "Project Intern",
+          "company": "BSNL",
+          "duration": "June 2019",
+          "location": "Guwahati, India",
+          "achievements": [
+            "Telecommunications: Learned operation, troubleshooting, and maintenance of complex telecom systems.",
+            "Standardization: Initiated study to standardize project management practices."
           ]
         }
       ]
@@ -71,48 +165,278 @@
       "title": "Key Projects",
       "items": [
         {
+          "name": "Multi-Agent Consulting System",
+          "type": "AI Architecture",
+          "achievements": [
+            "Architected a modular orchestration engine in Python that coordinates three distinct LLM agents (Performance, Risk, Audience) to parallelize influencer auditing.",
+            "Reduced analysis time by ~90% compared to serial prompting by implementing a hierarchical multi-agent system using OpenAI Agents SDK.",
+            "Engineered a RAG-Lite pipeline to inject historical influencer data into the context window, eliminating hallucinations in the 'Interactive Consultant'.",
+            "Utilized Pydantic models for strict JSON Schema outputs, ensuring 100% data compatibility with the React frontend and dynamic UI rendering."
+          ],
+          "stats": [
+            {
+              "number": "GitHub",
+              "label": "Link"
+            }
+          ],
+          "link": "https://github.com/hemkarG10"
+        },
+        {
+          "name": "AI Receptionist Agent",
+          "type": "AI Interaction",
+          "achievements": [
+            "Engineered an AI-driven voice assistant utilizing Twilio for telephony integration and LLMs for real-time customer engagement and automated scheduling.",
+            "Integrated Speech-to-Text (STT) and Text-to-Speech (TTS) pipelines to handle inbound calls and execute tool-calling for booking databases.",
+            "Built a call analysis layer to transcribe and analyze interactions, identifying missed business opportunities and customer sentiment.",
+            "Developed agent orchestration logic in Python, focusing on robust error handling, low-latency responses, and state management."
+          ],
+          "link": "https://github.com/hemkarG10"
+        },
+        {
+          "name": "Social Network Analytics Dashboard",
+          "type": "AI & Data Engineering",
+          "achievements": [
+            "Integrated AI agents that continuously ingest and structure multi-platform engagement events to surface trend signals (topics, spikes, anomalies).",
+            "Implemented semantic analysis on user comments to classify sentiment and detect key themes behind engagement shifts.",
+            "Architected integrations with Enterprise Application Platforms (EAPs) via standardized APIs/webhooks to sync metrics into CRMs and internal hubs.",
+            "Designed sensitive data-aware pipelines with anonymization and field-level filtering for enterprise-grade data governance."
+          ]
+        },
+        {
+          "name": "Disease Prediction Chatbot",
+          "type": "AI/ML",
+          "achievements": [
+            "Built an AI-driven chatbot using Python, NLTK, and Keras to diagnose potential diseases based on patient-reported symptoms.",
+            "Leveraged Natural Language Processing (NLP) to interpret user inputs and Deep Learning models to analyze symptom patterns.",
+            "Achieved accurate preliminary diagnoses by employing a wide range of ML libraries from the Python ecosystem."
+          ]
+        },
+        {
+          "name": "Slope Stability AI Predictor (Mobile App)",
+          "type": "Applied AI Research",
+          "achievements": [
+            "Developed a mobile application powered by artificial neural networks (ANN) to predict slope stability with $99\\%$ accuracy.",
+            "Optimized factor-of-safety analysis for residual soil and rock slopes using SQL/Python, achieving a $20\\%$ model lift.",
+            "Published research in Civil Engineering Journal (April 2022) showcasing Neural Networks in infrastructure safety."
+          ],
+          "stats": [
+            {
+              "number": "99%",
+              "label": "ANN Accuracy"
+            },
+            {
+              "number": "20%",
+              "label": "Model Lift"
+            }
+          ]
+        },
+        {
+          "name": "Real Estate Price Prediction during COVID-19",
+          "type": "AI Research",
+          "achievements": [
+            "Engineered an end-to-end ML pipeline quantifying COVID-19's impact on Mumbai real estate using Linear Regression, KNN, and K-Means Clustering.",
+            "Transformed unstructured housing data via advanced feature engineering, achieving $99\\%$ model accuracy for pricing forecasts.",
+            "Published in Springer Nature Computer Science, demonstrating the ability to translate applied AI research into peer-reviewed industry contributions."
+          ],
+          "stats": [
+            {
+              "number": "99%",
+              "label": "Accuracy"
+            },
+            {
+              "number": "Springer",
+              "label": "Publication"
+            }
+          ]
+        },
+        {
+          "name": "Stock Market Prediction \u2013 A Comparative Analysis",
+          "type": "Financial AI",
+          "achievements": [
+            "Proposed an automated trading system designed to achieve high-accuracy stock predictions and issue profitable trade signals.",
+            "Integrated mathematical functions with machine learning models and external factors such as news sentiment analysis.",
+            "Developed a comparative framework utilizing the Python ecosystem to evaluate different predictive approaches."
+          ]
+        },
+        {
+          "name": "Healthcare Analytics Using Machine Learning",
+          "type": "AI/ML",
+          "achievements": [
+            "Explored various use cases in the healthcare domain to demonstrate the efficacy of machine learning in clinical settings.",
+            "Applied key ML algorithms to clinical and diagnostic data to improve patient outcome tracking.",
+            "Documented and analyzed the application of predictive modeling in diverse healthcare data contexts."
+          ]
+        },
+        {
+          "name": "IoT-based HVAC System Automation",
+          "type": "Research/IoT",
+          "achievements": [
+            "Conducted time series analysis for automating HVAC systems based on real-time occupancy prediction.",
+            "Evaluated optimal prediction methods using Linear Discriminant Analysis (LDA) and Dempster Schafer Evidence Theory.",
+            "Achieved a high accuracy of $99.98\\%$ in predicting room occupancy, enabling significant energy savings."
+          ]
+        },
+        {
+          "name": "F1 Analytics Dashboard",
+          "type": "Backend Architecture",
+          "achievements": [
+            "Built an end-to-end race analytics dashboard centralizing telemetry and session statistics into an interactive web app using Streamlit.",
+            "Ingested F1 session data from public APIs/CSV datasets, then cleaned and joined multi-table results using Pandas.",
+            "Designed a modular data pipeline separating raw ingestion, transformation, and visualization layers for plug-and-play functionality.",
+            "Optimized transformations with vectorized Pandas operations, keeping dashboard interactions under one second.",
+            "Containerized the app with Docker for reproducible deployment across cloud environments."
+          ]
+        },
+        {
+          "name": "High-Performance Trading System Simulator",
+          "type": "Systems Engineering",
+          "achievements": [
+            "Developed a production-style high-performance trading backend that ingests real-time market data via REST/WebSocket APIs.",
+            "Engineered a Linux-based system using PostgreSQL for ACID-compliant storage and async multiprocessing for parallel strategy execution.",
+            "Designed a real-time order execution engine with sub-millisecond latency targets and automated failure recovery for $99.9\\%$ uptime.",
+            "Built a comprehensive risk management layer including position logging, balance monitoring, and PnL computation."
+          ]
+        },
+        {
+          "name": "Parallelization of Nucleotide Sequences",
+          "type": "Distributed Systems",
+          "achievements": [
+            "Implemented the Smith-Waterman Algorithm for local sequence alignment to analyze randomly generated nucleotide sequences.",
+            "Developed both serial and parallel processing versions of the algorithm to conduct a comparative analysis of computational performance.",
+            "Optimized sequence alignment tasks, demonstrating the efficiency of parallel computing in processing complex genomic data."
+          ]
+        },
+        {
+          "name": "Courier Management System",
+          "type": "Full-Stack / Blockchain",
+          "achievements": [
+            "Engineered a web-based management portal to digitize operations, integrating Blockchain capabilities and smart contracts for booking/tracking.",
+            "Implemented live geo-tracking via Google APIs to provide real-time package tracing for companies and customers.",
+            "Developed a strong routing algorithm considering real-time traffic data to improve delivery efficiency."
+          ]
+        },
+        {
+          "name": "Omega Jobs - A Startup Theme",
+          "type": "Web / Social Impact",
+          "achievements": [
+            "Developed 'Omega Jobs' to connect low-literacy workers in India with minimum wage opportunities.",
+            "Implemented a custom tag-based sorting algorithm to efficiently match employers with workers.",
+            "Designed a highly accessible UI for users with limited literacy to create profiles and navigate independently.",
+            "Structured a scalable freemium business model offering core services at no cost."
+          ]
+        },
+        {
+          "name": "Automatic Railway Crossing",
+          "type": "IoT / Hardware",
+          "achievements": [
+            "Designed an automated railway crossing prototype using Arduino microcontrollers and IR sensors to simulate safety automation.",
+            "Programmed logic to detect approaching trains and automatically trigger gate actuation using motor drivers.",
+            "Demonstrated the application of sensor-based control systems in preventing railway accidents."
+          ]
+        },
+        {
           "name": "Hodu Academy (EdTech Startup)",
+          "type": "Product Management",
           "achievements": [
-            "Hybrid operational model integrating offline centers with digital platform—5x onboarding, Tier-2/3 expansion",
-            "Defined vision and roadmap; 40% MoM user growth validating problem-solution fit",
-            "Led pods via OKRs, backlog, and sprints; strengthened execution and trust"
+            "Orchestrated the full product lifecycle from ideation to launch, driving a $40\\%$ MoM user growth by validating solution fit.",
+            "Architected a hybrid operational model integrating offline centers with a digital platform, driving 5x onboarding velocity.",
+            "Led cross-functional pods via OKRs and backlog management, fostering a culture of disciplined execution."
           ],
           "stats": [
-            { "number": "5x", "label": "Onboarding" },
-            { "number": "40%", "label": "User Growth" }
+            {
+              "number": "5x",
+              "label": "Onboarding"
+            },
+            {
+              "number": "40%",
+              "label": "User Growth"
+            }
           ]
         },
         {
-          "name": "Classification of Effect on Real Estates in Mumbai during Covid-19",
+          "name": "Dohare",
+          "type": "Project In-Integration",
           "achievements": [
-            "End-to-end research and ML pipeline to quantify Covid-19 impact (Linear Regression, KNN, K-Means)",
-            "Feature engineering and evaluation for pricing insights; achieved 99% accuracy",
-            "Published in Springer Nature Computer Science"
+            "Currently integrating 'Dohare' - A new initiative.",
+            "Check out the code and progress on my GitHub Profile."
           ],
           "stats": [
-            { "number": "99%", "label": "Accuracy" },
-            { "number": "Springer", "label": "Publication" }
-          ]
-        },
-        {
-          "name": "Slope Stability Prediction Research & Mobile Application",
-          "achievements": [
-            "Research on predicting slope stability for rock and residual soil slopes (April 2022)",
-            "Analyzed factor of safety with SQL/Python; 20% model accuracy improvement",
-            "Mobile app using neural networks achieving 99% prediction accuracy"
+            {
+              "number": "GitHub",
+              "label": "Link"
+            }
           ],
-          "stats": [
-            { "number": "99%", "label": "ML Accuracy" },
-            { "number": "20%", "label": "Model Improvement" }
-          ]
+          "link": "https://github.com/hemkarG10"
         }
       ]
     },
     "skills": {
       "title": "Technical Skills",
-      "programming": ["C", "C#", "C++", "Java", "Python", "SQL", "Dart", "HTML", "CSS", "JavaScript", "R"],
-      "technical": ["Product Management", "API Design", "API Development", "API Integration", "Data Analysis", "Machine Learning", "Artificial Neural Networks", "Cross-platform Development", "Research & Development"],
-      "technologies": ["Flutter", "AWS", "Kubernetes", "Docker", "iOS", "Android", ".NET Core"]
+      "programming": [
+        "Python",
+        "Java",
+        "Flutter",
+        ".NET",
+        "C",
+        "C++",
+        "C#",
+        "Dart",
+        "SQL",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "PHP",
+        "Kotlin",
+        "MATLAB",
+        "R"
+      ],
+      "ai_ml": [
+        "AI Orchestration",
+        "Prompt Engineering",
+        "LLMs",
+        "Generative AI",
+        "RAG (Retrieval-Augmented Generation)",
+        "Multi-Agent Systems",
+        "Neural Networks",
+        "NLP",
+        "Computer Vision",
+        "Vector Embeddings"
+      ],
+      "backend_systems": [
+        "Microservices",
+        "Docker",
+        "Kubernetes",
+        "API Design (REST/WebSocket)",
+        "AWS (Lambda/S3)",
+        "PostgreSQL",
+        "Microsoft Fabric",
+        "CI/CD",
+        "Async/Multiprocessing",
+        "Blockchain"
+      ],
+      "product_strategic": [
+        "Product Management",
+        "GTM Strategy",
+        "Pricing & Packaging",
+        "Roadmap Prioritization",
+        "Stakeholder Management",
+        "Rapid Prototyping (MVP)",
+        "Agile Methodology",
+        "OKR Alignment",
+        "Management Consulting",
+        "UX Research"
+      ],
+      "tools": [
+        "Git",
+        "Linux (Ubuntu)",
+        "VS Code",
+        "Twilio",
+        "AWS QuickSight",
+        "Gainsight",
+        "Salesforce Platform",
+        "Litmus",
+        "Postman"
+      ]
     },
     "education": {
       "title": "Education",
@@ -120,12 +444,14 @@
         {
           "institution": "The University of Texas at Austin",
           "degree": "Master of Science, Information Technology & Management",
-          "graduation": "Expected May 2026"
+          "graduation": "Expected May 2026",
+          "location": "Austin, USA"
         },
         {
-          "institution": "Vellore Institute of Technology",
+          "institution": "Vellore Institute of Technology (VIT)",
           "degree": "Bachelor of Technology in Computer Science",
-          "graduation": "Vellore, India"
+          "graduation": "Vellore, India",
+          "location": "Vellore, India"
         }
       ]
     },
@@ -135,62 +461,95 @@
         {
           "name": "Slope Stability Prediction for Rock and Residual Soil Slopes",
           "journal": "Civil Engineering Journal, April 2022",
-          "description": "Published research on predicting slope stability using machine learning techniques, contributing to the field of civil engineering with practical applications in infrastructure safety.",
-          "highlights": ["Machine Learning", "Civil Engineering", "Neural Networks", "Data Analysis"],
-          "icon": "microscope"
+          "description": "Published research on predicting slope stability using machine learning techniques (ANN), contributing to infrastructure safety.",
+          "highlights": [
+            "Machine Learning",
+            "Neural Networks",
+            "Data Analysis",
+            "Infrastructure Safety"
+          ]
         },
         {
           "name": "Real Estate Market Analysis During COVID-19",
           "journal": "Springer Nature Computer Science",
-          "description": "Research publication analyzing the impact of COVID-19 on Mumbai's real estate market using advanced machine learning algorithms and data science techniques.",
-          "highlights": ["Data Science", "Real Estate", "COVID-19 Impact", "ML Algorithms"],
-          "icon": "chart-line"
+          "icon": "chart-line",
+          "description": "Research analyzing the impact of COVID-19 on Mumbai's real estate market using Linear Regression, KNN, and K-Means.",
+          "highlights": [
+            "Data Science",
+            "Real Estate",
+            "COVID-19 Impact",
+            "ML Algorithms"
+          ]
+        },
+        {
+          "name": "Stock Market Prediction \u2013 A Comparative Analysis",
+          "journal": "IRJET, June-July 2021",
+          "icon": "chart-line",
+          "description": "Comparative framework evaluating predictive approaches for financial markets including sentiment analysis.",
+          "highlights": [
+            "Financial AI",
+            "Sentiment Analysis",
+            "Python"
+          ]
+        },
+        {
+          "name": "Healthcare Analytics Using Machine Learning",
+          "journal": "IRJET, June-July 2021",
+          "description": "Exploration of ML use cases in clinical and diagnostic settings for improved patient outcome tracking.",
+          "highlights": [
+            "HealthTech",
+            "Predictive Modeling",
+            "ML"
+          ]
         }
       ]
     },
     "certifications": {
       "title": "Certifications",
       "items": [
-        { "name": "Gold Certificate – Security Analyst", "details": "SSC/Q0901, NASSCOM, Level 7, 2021", "icon": "shield-alt" },
-        { "name": "Databases and SQL for Data Science", "details": "IBM, November 2019", "icon": "database" },
-        { "name": "Fundamentals of Parallelism", "details": "Intel Corporation, October 2019", "icon": "microchip" }
+        {
+          "name": "Gold Certificate \u2013 Security Analyst",
+          "details": "NASSCOM, Level 7, 2021"
+        },
+        {
+          "name": "Databases and SQL for Data Science",
+          "details": "IBM, November 2019"
+        },
+        {
+          "name": "Fundamentals of Parallelism",
+          "details": "Intel Corporation, October 2019"
+        }
       ]
     },
     "community": {
       "title": "Community Leadership",
       "items": [
-        { "name": "COVID-19 Relief Volunteer", "description": "Coordinated supply drives, awareness campaigns and received recognition by the State Government of Uttar Pradesh for relief activities during 2020 pandemic", "icon": "hands-helping" },
-        { "name": "Kashika Shakti Club", "description": "Drove tech and engagement strategies for women empowerment and child education", "icon": "female" }
+        {
+          "name": "COVID-19 Relief Volunteer",
+          "description": "Coordinated supply drives and awareness campaigns; recognized by the State Government of Uttar Pradesh in 2020."
+        },
+        {
+          "name": "Kashika Shakti Club",
+          "description": "Drove tech and engagement strategies for women empowerment and child education."
+        }
       ]
     },
     "interests": {
       "title": "My 5-9 after my 9-5!",
       "items": [
-        { "name": "Sports & Fitness", "description": "Following FC Barcelona and Messi, staying active with regular workouts and fitness routines.", "icon": "futbol" },
-        { "name": "Entertainment", "description": "Big fan of The Office, anime, manga, and superhero movies. Love discovering new shows and stories.", "icon": "tv" },
-        { "name": "Travel & Exploration", "description": "Love exploring new places, especially beaches and coastal destinations. Always up for new adventures.", "icon": "plane" }
+        {
+          "name": "Sports & Fitness",
+          "description": "FC Barcelona, Messi, and regular fitness routines."
+        },
+        {
+          "name": "Entertainment",
+          "description": "The Office, anime, manga, and superhero movies."
+        },
+        {
+          "name": "Travel",
+          "description": "Exploring beaches and coastal destinations."
+        }
       ]
-    },
-    "contact": {
-      "title": "Let's chat!",
-      "description": "Reach out to me to talk software engineering, product management, or just to connect.",
-      "methods": [
-        { "type": "Email", "value": "hemkarg@utexas.edu", "href": "mailto:hemkarg@utexas.edu", "icon": "envelope" },
-        { "type": "Phone", "value": "(737) 328-2702", "href": "tel:+17373282702", "icon": "phone" },
-        { "type": "Location", "value": "Austin, Texas", "href": "https://maps.google.com/?q=Austin,Texas", "icon": "map-marker-alt", "external": true }
-      ],
-      "social": [
-        { "platform": "GitHub", "href": "https://github.com/hemkarG10", "icon": "github" },
-        { "platform": "LinkedIn", "href": "https://www.linkedin.com/in/hemkarg", "icon": "linkedin" },
-        { "platform": "Email", "href": "mailto:hemkarg@utexas.edu", "icon": "envelope" }
-      ],
-      "ctaEmail": "Send Email",
-      "ctaCall": "Call Now",
-      "ctaMap": "View on Map"
-    },
-    "footer": {
-      "copyright": "© 2025 Hemkar Goswami. All rights reserved."
     }
   }
 }
-
