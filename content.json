@@ -55,98 +55,79 @@
         {
           "role": "Product Management Consultant",
           "company": "Brumley Institute for Graduate Entrepreneurship",
-          "duration": "Jan 2026 - Present",
+          "duration": "January 2026 – Present",
           "location": "Austin, USA",
-          "description": "Advised early-stage and growth-stage ventures on go-to-market strategy, pricing, financial modeling, and commercialization across AI and healthcare domains.",
+          "description": "Advised early-stage AI and healthcare ventures on go-to-market strategy and financial modeling.",
           "achievements": [
-            "Regulator AI (Enterprise AI / Compliance Tech): Led GTM beachhead validation, synthesizing market data and customer discovery into a data-backed recommendation for primary enterprise segments.",
-            "Defined User Champion and Economic Buyer personas, mapping incentives, buying triggers, and enterprise procurement dynamics.",
-            "Developed a value proposition and messaging matrix aligned to regulatory pain points, enabling focused enterprise sales outreach.",
-            "Built a Top-100 enterprise target account list, prioritized by industry fit, regulatory exposure, and revenue potential.",
-            "Designed a 3-tier pricing & packaging strategy (Professional / Business / Enterprise) with a feature-differentiated value ladder.",
-            "Created a financial model forecasting revenue, COGS, LTV, and pricing sensitivity to support leadership pricing decisions.",
-            "Authored a sales negotiation playbook outlining discounting thresholds, anchoring strategy, and enterprise deal mechanics.",
-            "Muid Mecca Medical (MedTech): Evaluated licensing-only commercialization feasibility, producing a lifecycle impact brief and ecosystem map.",
-            "Built hospital & OEM licensing economics, including pricing matrices, revenue scenarios, and investor-ready unit economics.",
-            "Conducted financial reasonableness and valuation analysis, delivering sensitivity models and valuation justification memos for investors.",
-            "Developed long-range financial projections and an IPO-oriented pro-forma model aligned with healthcare capital markets expectations.",
-            "Researched global cleft prevalence trends and authored a global cleft workforce shortage report modeling supply-demand gaps.",
-            "Designed a cleft-center talent pipeline strategy, creating partnership blueprints and a scalable workforce flywheel."
+            "Advised early-stage AI and healthcare ventures on go-to-market strategy and financial modeling, designing a 3-tier pricing strategy with feature-differentiated value ladders to support critical leadership pricing decisions.",
+            "Led enterprise beachhead validation for Regulator AI by synthesizing market data and customer discovery into data-backed recommendations, defining user personas and mapping procurement dynamics to enable focused sales outreach.",
+            "Evaluated licensing-only commercialization feasibility for healthcare ecosystems at Muid Mecca Medical, producing investor-ready unit economics and long-range financial projections aligned with global healthcare capital markets and IPO expectations.",
+            "Conducted financial reasonableness and valuation analysis for MedTech ventures, delivering sensitivity models and valuation justification memos that established credibility with investors and mapped global cleft-center talent pipeline strategies."
           ]
         },
         {
           "role": "Data Engineer (Capstone Project)",
           "company": "CoPointAI",
-          "duration": "Jan 2026 - Present",
+          "duration": "January 2026 – Present",
           "location": "Austin, USA",
-          "description": "Natural Language Agent for Financial Intelligence.",
+          "description": "Building an AI-powered analytics agent using Microsoft Fabric.",
           "achievements": [
-            "Data Engineering & Architecture: Lead the integration of Microsoft Fabric Lakehouse and Warehouse environments, establishing a unified data foundation.",
-            "SQL & Semantic Modeling: Architecting semantic models and T-SQL query templates to enable seamless translation of natural language questions into business insights.",
-            "Scalability & Performance: Optimizing data ingestion and transformation pipelines to support a high-accuracy (target $\\ge 80\\%$) Natural Language Query (NLQ) engine.",
-            "Cross-Functional Collaboration: Partnering with AI/ML and Full-Stack developers to implement a Retrieval-Augmented Generation (RAG) pipeline with grounded, cited responses.",
-            "Product-Led Insight: Driving 'speed to insight' by developing features for proactive anomaly detection, reducing manual analyst workloads from hours to minutes."
+            "Led the integration of Microsoft Fabric Lakehouse and Warehouse environments to establish a unified data foundation, optimizing ingestion pipelines to support a high-accuracy Natural Language Query engine.",
+            "Architected semantic models and T-SQL query templates to enable seamless translation of natural language questions into business insights, reducing manual analyst workloads from hours to minutes via proactive anomaly detection.",
+            "Partnered with cross-functional developers to implement a Retrieval-Augmented Generation (RAG) pipeline, ensuring grounded, cited responses for non-technical stakeholders while improving query latency by 42% and answer relevance by 48%."
           ]
         },
         {
           "role": "Software Engineer 2",
           "company": "Zenoti",
-          "duration": "August 2024 - June 2025",
+          "duration": "August 2024 – June 2025",
           "location": "Hyderabad, India",
           "achievements": [
-            "AI Scribe: Led end-to-end development from a 60-hour hackathon POC to a production platform used by 100+ beta customers.",
-            "Architected a scalable, serverless AWS solution achieving $80-90\\%$ reduction in documentation time and $95\\%+$ accuracy.",
-            "Spearheaded the HyperConnect voice platform, determining scope and roadmap to scale to 100K+ calls/month, contributing to $10M ARR.",
-            "Implemented generative AI-powered call analysis and automation, resulting in a $30\\%$ increase in conversion rates.",
-            "Engineered an in-house voice MVP utilizing Twilio, unlocking $25\\%$ new-logo revenue and supporting $50\\%$ YoY usage growth.",
-            "Ensured compliance with complex international regulations (UK, Singapore, US), reducing critical delivery failures by $40\\%$.",
-            "Managed 10+ Sev-1 incidents via coordinated response; introduced sprint safeguards that improved release stability."
+            "Orchestrated the end-to-end development of AI Scribe from a 60-hour hackathon POC to a production platform for 100+ customers, achieving a 90% reduction in documentation time and 95% accuracy.",
+            "Directed the HyperConnect voice platform launch by collaborating across cross-functional teams to align roadmap milestones, contributing to over 100K monthly calls and $10M in Annual Recurring Revenue (ARR).",
+            "Implemented generative AI-powered call analysis and automation to uncover missed opportunities in customer interactions, resulting in a 30% increase in conversion rates while demonstrating innovative AI orchestration and development.",
+            "Ensured compliance with complex international regulations across UK, Singapore, and US markets, reducing critical delivery failures by 40% and introducing Ag-Grid automation to improve dashboard stability and risk management."
           ]
         },
         {
           "role": "Software Engineer",
           "company": "Zenoti",
-          "duration": "August 2022 - August 2024",
+          "duration": "August 2022 – August 2024",
           "location": "Hyderabad, India",
           "achievements": [
-            "Modernized C#/.NET Core monolith, boosting throughput by $30\\%$ and reducing P1 incidents by $50\\%$ through strategic tech debt payoff.",
-            "Integrated Instagram and WhatsApp Business APIs into HyperConnect, enhancing cross-functional collaboration and customer-facing solutions.",
-            "Led deployment of third-party integrations (AWS QuickSight, Gainsight), resolving complex technical challenges via robust data pipelines.",
-            "Utilized behavioral data analytics to drive UX improvements, reducing page load times by $75\\%$.",
-            "Drove backlog prioritization and cross-platform delivery (Flutter + .NET), resulting in a $10\\%$ speed boost and fewer crashes."
+            "Engineered an in-house voice MVP utilizing Twilio that unlocked 25% new customer revenue and drove 50% annual platform usage growth by balancing complex technical requirements with strategic business goals.",
+            "Integrated Instagram and WhatsApp Business APIs into the HyperConnect platform, overseeing technical implementations and enhancing cross-functional collaboration to deliver seamless, real-time customer-facing communication solutions for global enterprise clients.",
+            "Utilized behavioral data analytics to drive critical User Experience improvements, reducing page load times by 75% and demonstrating a commitment to technical optimization and high-performance, user-centric frontend engineering standards."
           ]
         },
         {
           "role": "Software Engineer Intern",
           "company": "Zenoti",
-          "duration": "February 2022 - August 2022",
+          "duration": "February 2022 – August 2022",
           "location": "Hyderabad, India",
           "achievements": [
-            "Translated ambiguous product requirements into precise technical specifications in Flutter while collaborating with PMs and senior engineers.",
-            "Prototyped UI/UX enhancements and improved release efficiency by $20\\%$ via testing and tooling.",
-            "Contributed to sprint planning and cross-team syncs for timely delivery."
+            "Modernized a legacy C#/.NET monolith architecture to significantly improve system performance, reducing critical incidents by 50% and increasing system throughput by 30% to align with long-term scalability goals.",
+            "Translated ambiguous product requirements into precise technical specifications for Flutter-based mobile applications, enhancing product-market fit through robust stakeholder management and collaboration with senior engineering and product leadership."
           ]
         },
         {
           "role": "Research Intern",
           "company": "IIT-BHU",
-          "duration": "July 2021 - November 2021",
+          "duration": "July 2021 – November 2021",
           "location": "Varanasi, India",
           "achievements": [
-            "IoT & Machine Learning: Conducted research on time series analysis for IoT-based HVAC system automation for occupancy prediction.",
-            "Analytical Models: Evaluated occupancy prediction using Linear Discriminant Analysis (LDA) and Dempster Schafer Evidence Theory, achieving up to $99.98\\%$ accuracy.",
-            "Training: Facilitated peer-based research by training others in machine learning and data analysis for upcoming publications."
+            "Conducted time series analysis for IoT-based HVAC system automation, evaluating occupancy prediction models using Linear Discriminant Analysis and Dempster Schafer Evidence Theory to achieve a high accuracy of 99.98%.",
+            "Facilitated peer-based research by training others in machine learning and data analysis techniques for upcoming publications, fostering a collaborative environment for advanced analytical model development and performance validation."
           ]
         },
         {
           "role": "Project Intern",
           "company": "Hewlett Packard Enterprise (HPE)",
-          "duration": "March 2021 - July 2021",
+          "duration": "March 2021 – July 2021",
           "location": "Bengaluru, India",
           "achievements": [
-            "CI/CD & Microservices: Spearheaded investigations into microservice application behavior within CI/CD frameworks.",
-            "Orchestration: Developed and deployed Dockerized microservices on Kubernetes, performing automated load testing for scalability.",
-            "Chaos Testing: Designed and executed chaos testing use cases using Litmus tools, strengthening system resilience by $25\\%$."
+            "Spearheaded investigations into microservice application behavior within CI/CD frameworks, developing and deploying Dockerized services on Kubernetes while performing automated load testing to ensure system scalability and production reliability.",
+            "Designed and executed chaos testing use cases using Litmus tools, strengthening system resilience and fault tolerance by 25% through rigorous simulation of distributed system failures and bottleneck analysis."
           ]
         },
         {
@@ -155,286 +136,181 @@
           "duration": "June 2019",
           "location": "Guwahati, India",
           "achievements": [
-            "Telecommunications: Learned operation, troubleshooting, and maintenance of complex telecom systems.",
-            "Standardization: Initiated study to standardize project management practices."
+            "Analyzed the operation, troubleshooting, and maintenance of complex telecommunications systems, initiating a study to standardize project management practices and improve operational efficiency within large-scale network infrastructure environments."
           ]
         }
       ]
     },
     "projects": {
-      "title": "Key Projects",
+      "title": "Projects",
       "items": [
-        {
-          "name": "Multi-Agent Consulting System",
-          "type": "AI Architecture",
-          "achievements": [
-            "Architected a modular orchestration engine in Python that coordinates three distinct LLM agents (Performance, Risk, Audience) to parallelize influencer auditing.",
-            "Reduced analysis time by ~90% compared to serial prompting by implementing a hierarchical multi-agent system using OpenAI Agents SDK.",
-            "Engineered a RAG-Lite pipeline to inject historical influencer data into the context window, eliminating hallucinations in the 'Interactive Consultant'.",
-            "Utilized Pydantic models for strict JSON Schema outputs, ensuring 100% data compatibility with the React frontend and dynamic UI rendering."
-          ],
-          "stats": [
-            {
-              "number": "GitHub",
-              "label": "Link"
-            }
-          ],
-          "link": "https://github.com/hemkarG10"
-        },
-        {
-          "name": "AI Receptionist Agent",
-          "type": "AI Interaction",
-          "achievements": [
-            "Engineered an AI-driven voice assistant utilizing Twilio for telephony integration and LLMs for real-time customer engagement and automated scheduling.",
-            "Integrated Speech-to-Text (STT) and Text-to-Speech (TTS) pipelines to handle inbound calls and execute tool-calling for booking databases.",
-            "Built a call analysis layer to transcribe and analyze interactions, identifying missed business opportunities and customer sentiment.",
-            "Developed agent orchestration logic in Python, focusing on robust error handling, low-latency responses, and state management."
-          ],
-          "link": "https://github.com/hemkarG10"
-        },
         {
           "name": "Social Network Analytics Dashboard",
           "type": "AI & Data Engineering",
           "achievements": [
-            "Integrated AI agents that continuously ingest and structure multi-platform engagement events to surface trend signals (topics, spikes, anomalies).",
-            "Implemented semantic analysis on user comments to classify sentiment and detect key themes behind engagement shifts.",
-            "Architected integrations with Enterprise Application Platforms (EAPs) via standardized APIs/webhooks to sync metrics into CRMs and internal hubs.",
-            "Designed sensitive data-aware pipelines with anonymization and field-level filtering for enterprise-grade data governance."
+            "Integrated AI agents that continuously ingest social platform engagement events, surfacing trend signals and sentiment classifications to help stakeholders move beyond vanity metrics and improve campaign decision-making quality.",
+            "Architected sensitive data-aware pipelines using anonymization and field-level filtering, ensuring personally identifiable information is excluded before AI processing to align the system with enterprise-grade data governance and security expectations.",
+            "Defined product success measures around time-to-insight and feature adoption, instrumenting event-level tracking to support A/B experiments and iterative roadmap development for scalable, persona-aligned executive summaries and deep-dive views."
           ]
         },
         {
-          "name": "Disease Prediction Chatbot",
-          "type": "AI/ML",
+          "name": "Multi-Agent Consulting & Financial Intelligence System",
+          "type": "AI Architecture",
           "achievements": [
-            "Built an AI-driven chatbot using Python, NLTK, and Keras to diagnose potential diseases based on patient-reported symptoms.",
-            "Leveraged Natural Language Processing (NLP) to interpret user inputs and Deep Learning models to analyze symptom patterns.",
-            "Achieved accurate preliminary diagnoses by employing a wide range of ML libraries from the Python ecosystem."
-          ]
-        },
-        {
-          "name": "Slope Stability AI Predictor (Mobile App)",
-          "type": "Applied AI Research",
-          "achievements": [
-            "Developed a mobile application powered by artificial neural networks (ANN) to predict slope stability with $99\\%$ accuracy.",
-            "Optimized factor-of-safety analysis for residual soil and rock slopes using SQL/Python, achieving a $20\\%$ model lift.",
-            "Published research in Civil Engineering Journal (April 2022) showcasing Neural Networks in infrastructure safety."
-          ],
-          "stats": [
-            {
-              "number": "99%",
-              "label": "ANN Accuracy"
-            },
-            {
-              "number": "20%",
-              "label": "Model Lift"
-            }
-          ]
-        },
-        {
-          "name": "Real Estate Price Prediction during COVID-19",
-          "type": "AI Research",
-          "achievements": [
-            "Engineered an end-to-end ML pipeline quantifying COVID-19's impact on Mumbai real estate using Linear Regression, KNN, and K-Means Clustering.",
-            "Transformed unstructured housing data via advanced feature engineering, achieving $99\\%$ model accuracy for pricing forecasts.",
-            "Published in Springer Nature Computer Science, demonstrating the ability to translate applied AI research into peer-reviewed industry contributions."
-          ],
-          "stats": [
-            {
-              "number": "99%",
-              "label": "Accuracy"
-            },
-            {
-              "number": "Springer",
-              "label": "Publication"
-            }
-          ]
-        },
-        {
-          "name": "Stock Market Prediction \u2013 A Comparative Analysis",
-          "type": "Financial AI",
-          "achievements": [
-            "Proposed an automated trading system designed to achieve high-accuracy stock predictions and issue profitable trade signals.",
-            "Integrated mathematical functions with machine learning models and external factors such as news sentiment analysis.",
-            "Developed a comparative framework utilizing the Python ecosystem to evaluate different predictive approaches."
-          ]
-        },
-        {
-          "name": "Healthcare Analytics Using Machine Learning",
-          "type": "AI/ML",
-          "achievements": [
-            "Explored various use cases in the healthcare domain to demonstrate the efficacy of machine learning in clinical settings.",
-            "Applied key ML algorithms to clinical and diagnostic data to improve patient outcome tracking.",
-            "Documented and analyzed the application of predictive modeling in diverse healthcare data contexts."
-          ]
-        },
-        {
-          "name": "IoT-based HVAC System Automation",
-          "type": "Research/IoT",
-          "achievements": [
-            "Conducted time series analysis for automating HVAC systems based on real-time occupancy prediction.",
-            "Evaluated optimal prediction methods using Linear Discriminant Analysis (LDA) and Dempster Schafer Evidence Theory.",
-            "Achieved a high accuracy of $99.98\\%$ in predicting room occupancy, enabling significant energy savings."
+            "Designed a hierarchical multi-agent system using the OpenAI Agents SDK, featuring a specialized Orchestrator and Planner agent that decomposes complex user queries into dependency-aware subtask graphs for parallel execution.",
+            "Developed custom tools for Excel parsing, semantic search, and automated financial ratio calculation, leveraging Pydantic-validated models to synthesize disparate analytical outputs into cohesive, professional Markdown consulting reports.",
+            "Reduced time-to-insight for enterprise clients by 60% through a reusable AI demo template, standardizing workflows across technical stakeholder teams and aligning AI capabilities with critical user pain points."
           ]
         },
         {
           "name": "F1 Analytics Dashboard",
           "type": "Backend Architecture",
           "achievements": [
-            "Built an end-to-end race analytics dashboard centralizing telemetry and session statistics into an interactive web app using Streamlit.",
-            "Ingested F1 session data from public APIs/CSV datasets, then cleaned and joined multi-table results using Pandas.",
-            "Designed a modular data pipeline separating raw ingestion, transformation, and visualization layers for plug-and-play functionality.",
-            "Optimized transformations with vectorized Pandas operations, keeping dashboard interactions under one second.",
-            "Containerized the app with Docker for reproducible deployment across cloud environments."
+            "Built an end-to-end race analytics dashboard using Python and Streamlit, ingesting telemetry data from public APIs and cleaning multi-table results with Pandas to create high-performance, analysis-ready data schemas.",
+            "Optimized data transformations with vectorized operations and precomputed aggregates, keeping dashboard interactions under one second while using Plotly for interactive time-series visualizations of lap times and stint pace.",
+            "Containerized the application with Docker and configured environment-based settings for reproducible deployment, allowing fans and analysts to explore historical comparisons across N seasons and thousands of laps."
           ]
         },
         {
-          "name": "High-Performance Trading System Simulator",
-          "type": "Systems Engineering",
+          "name": "AI Receptionist & Voice Interaction Agent",
+          "type": "AI Interaction",
           "achievements": [
-            "Developed a production-style high-performance trading backend that ingests real-time market data via REST/WebSocket APIs.",
-            "Engineered a Linux-based system using PostgreSQL for ACID-compliant storage and async multiprocessing for parallel strategy execution.",
-            "Designed a real-time order execution engine with sub-millisecond latency targets and automated failure recovery for $99.9\\%$ uptime.",
-            "Built a comprehensive risk management layer including position logging, balance monitoring, and PnL computation."
+            "Engineered an autonomous voice assistant utilizing Twilio and LLMs for real-time customer engagement, automating appointment scheduling via tool-calling for booking databases with robust error handling and state management.",
+            "Built a call analysis layer to transcribe interactions and analyze sentiment, identifying missed business opportunities to drive higher conversion rates and providing a human-like response experience for inbound callers."
           ]
         },
         {
-          "name": "Parallelization of Nucleotide Sequences",
-          "type": "Distributed Systems",
-          "achievements": [
-            "Implemented the Smith-Waterman Algorithm for local sequence alignment to analyze randomly generated nucleotide sequences.",
-            "Developed both serial and parallel processing versions of the algorithm to conduct a comparative analysis of computational performance.",
-            "Optimized sequence alignment tasks, demonstrating the efficiency of parallel computing in processing complex genomic data."
-          ]
-        },
-        {
-          "name": "Courier Management System",
+          "name": "Courier Management & Blockchain Tracking System",
           "type": "Full-Stack / Blockchain",
           "achievements": [
-            "Engineered a web-based management portal to digitize operations, integrating Blockchain capabilities and smart contracts for booking/tracking.",
-            "Implemented live geo-tracking via Google APIs to provide real-time package tracing for companies and customers.",
-            "Developed a strong routing algorithm considering real-time traffic data to improve delivery efficiency."
+            "Engineered a web-based management portal to digitize operations, integrating live geo-tracking via Google APIs to provide real-time package updates and significantly enhancing transparency for companies and customers.",
+            "Developed a strong routing algorithm considering real-time traffic data and integrated Blockchain smart contracts for booking, improving delivery efficiency and ensuring secure, immutable tracking across national parcel networks."
           ]
         },
         {
-          "name": "Omega Jobs - A Startup Theme",
+          "name": "Mumbai Real Estate Economic Impact Analysis",
+          "type": "AI Research",
+          "achievements": [
+            "Published research in Springer Nature Computer Science quantifying the economic impact of the pandemic on Mumbai real estate, architecting an ML pipeline to correlate property area and price.",
+            "Transformed unstructured housing data through feature engineering and evaluated models using Linear Regression and K-Means Clustering, achieving 99% accuracy for pricing forecasts to aid critical stakeholder decision-making."
+          ]
+        },
+        {
+          "name": "Soil and Rock Slope Stability Prediction",
+          "type": "Applied AI Research",
+          "achievements": [
+            "Built a mobile application using Kotlin and Artificial Neural Networks (ANN) to analyze factor of safety for geological stability, achieving 99% accuracy in preventing potential failures.",
+            "Published findings in Advances in Civil Engineering and prepared secondary research for review in Neural Computing and Applications, demonstrating the efficacy of mobile-based predictive modeling in civil engineering."
+          ]
+        },
+        {
+          "name": "Ωmega Jobs - Low-Literacy Employment Platform",
           "type": "Web / Social Impact",
           "achievements": [
-            "Developed 'Omega Jobs' to connect low-literacy workers in India with minimum wage opportunities.",
-            "Implemented a custom tag-based sorting algorithm to efficiently match employers with workers.",
-            "Designed a highly accessible UI for users with limited literacy to create profiles and navigate independently.",
-            "Structured a scalable freemium business model offering core services at no cost."
+            "Developed a web-based platform to connect workers with minimum wage opportunities, implementing a custom tag-based sorting algorithm to efficiently match employers with low-literacy workers in the Indian market.",
+            "Designed a highly accessible UI for independent navigation and structured a scalable freemium business model, balancing core free services with advanced features for a nominal fee to mitigate unemployment."
           ]
         },
         {
-          "name": "Automatic Railway Crossing",
-          "type": "IoT / Hardware",
-          "achievements": [
-            "Designed an automated railway crossing prototype using Arduino microcontrollers and IR sensors to simulate safety automation.",
-            "Programmed logic to detect approaching trains and automatically trigger gate actuation using motor drivers.",
-            "Demonstrated the application of sensor-based control systems in preventing railway accidents."
-          ]
-        },
-        {
-          "name": "Hodu Academy (EdTech Startup)",
+          "name": "Hodu Academy - Pro-bono Product Management",
           "type": "Product Management",
           "achievements": [
-            "Orchestrated the full product lifecycle from ideation to launch, driving a $40\\%$ MoM user growth by validating solution fit.",
-            "Architected a hybrid operational model integrating offline centers with a digital platform, driving 5x onboarding velocity.",
-            "Led cross-functional pods via OKRs and backlog management, fostering a culture of disciplined execution."
-          ],
-          "stats": [
-            {
-              "number": "5x",
-              "label": "Onboarding"
-            },
-            {
-              "number": "40%",
-              "label": "User Growth"
-            }
+            "Orchestrated the full product lifecycle from ideation to launch, driving 40% month-over-month user growth by validating solution fit through targeted interviews and market analysis for an EdTech startup.",
+            "Coordinated cross-functional teams using OKR alignment and backlog prioritization to ensure transparent, consensus-driven delivery of educational product features and standardized roadmaps for scalable growth."
           ]
         },
         {
-          "name": "Dohare",
-          "type": "Project In-Integration",
+          "name": "Disease Prediction Chatbot",
+          "type": "AI/ML",
           "achievements": [
-            "Currently integrating 'Dohare' - A new initiative.",
-            "Check out the code and progress on my GitHub Profile."
-          ],
-          "stats": [
-            {
-              "number": "GitHub",
-              "label": "Link"
-            }
-          ],
-          "link": "https://github.com/hemkarG10"
+            "Built an AI-driven chatbot using Python, NLTK, and Keras to diagnose potential diseases based on patient-reported symptoms, leveraging Deep Learning models to analyze symptom patterns for accurate preliminary diagnoses.",
+            "Demonstrated proficiency in machine learning and data analysis by creating an accessible tool that provides instant health assessments, interpreting user inputs through natural language processing to improve patient tracking."
+          ]
+        },
+        {
+          "name": "Nucleotide Sequence Parallelization",
+          "type": "Distributed Systems",
+          "achievements": [
+            "Implemented the Smith-Waterman Algorithm for local sequence alignment, developing both serial and parallel processing versions to conduct a comparative analysis of computational performance in genomic data detection.",
+            "Optimized sequence alignment tasks to demonstrate the efficiency of parallel computing in distributed systems, effectively reducing processing time for complex, randomly generated nucleotide sequences."
+          ]
+        },
+        {
+          "name": "Automatic Railway Crossing Prototype",
+          "type": "IoT / Hardware",
+          "achievements": [
+            "Designed an automated railway crossing prototype using Arduino and IR sensors, programming logic to detect approaching trains and automatically trigger gate actuation to demonstrate sensor-based safety automation.",
+            "Created a functional hardware simulation using motor drivers to prevent railway accidents, showcasing the application of microcontrollers in developing critical safety-first industrial control systems."
+          ]
+        },
+        {
+          "name": "Stock Market Prediction - Comparative Analysis",
+          "type": "Financial AI",
+          "achievements": [
+            "Proposed an automated trading system in the International Research Journal of Engineering and Technology, integrating news sentiment analysis with machine learning to issue high-accuracy profitable trade signals.",
+            "Developed a comparative framework within the Python ecosystem to evaluate predictive approaches for financial markets, achieving documented success in automated trading and financial intelligence modeling."
+          ]
         }
       ]
     },
     "skills": {
-      "title": "Technical Skills",
+      "title": "Technical & Strategic Skills",
       "programming": [
-        "Python",
+        "Python (FastAPI, Pydantic)",
         "Java",
-        "Flutter",
-        ".NET",
-        "C",
-        "C++",
         "C#",
-        "Dart",
+        "C++",
         "SQL",
-        "HTML",
-        "CSS",
-        "JavaScript",
+        "JavaScript (React, Node.js)",
+        "Flutter",
+        "Dart",
+        ".NET",
         "PHP",
         "Kotlin",
-        "MATLAB",
-        "R"
+        "HTML/CSS",
+        "TailwindCSS"
       ],
       "ai_ml": [
         "AI Orchestration",
-        "Prompt Engineering",
-        "LLMs",
-        "Generative AI",
-        "RAG (Retrieval-Augmented Generation)",
+        "Prompt Engineering (Chain-of-Thought)",
+        "RAG Pipelines",
         "Multi-Agent Systems",
-        "Neural Networks",
-        "NLP",
-        "Computer Vision",
-        "Vector Embeddings"
+        "LLMs (GPT-4/5)",
+        "Vector Embeddings",
+        "Semantic Search",
+        "Azure AI Foundry",
+        "Keras",
+        "NLTK"
       ],
       "backend_systems": [
-        "Microservices",
+        "Microsoft Fabric (Lakehouse/Warehouse)",
+        "AWS (Serverless, Lambda)",
         "Docker",
         "Kubernetes",
-        "API Design (REST/WebSocket)",
-        "AWS (Lambda/S3)",
-        "PostgreSQL",
-        "Microsoft Fabric",
         "CI/CD",
-        "Async/Multiprocessing",
-        "Blockchain"
+        "PostgreSQL",
+        "Redis",
+        "Linux (Ubuntu)",
+        "Git/GitHub",
+        "Blockchain Smart Contracts"
       ],
       "product_strategic": [
-        "Product Management",
         "GTM Strategy",
-        "Pricing & Packaging",
-        "Roadmap Prioritization",
-        "Stakeholder Management",
+        "Financial Modeling",
         "Rapid Prototyping (MVP)",
-        "Agile Methodology",
+        "Stakeholder Management",
+        "Agile/Scrum",
         "OKR Alignment",
-        "Management Consulting",
-        "UX Research"
+        "Backlog Prioritization",
+        "Pricing & Packaging"
       ],
       "tools": [
-        "Git",
-        "Linux (Ubuntu)",
-        "VS Code",
         "Twilio",
-        "AWS QuickSight",
-        "Gainsight",
         "Salesforce Platform",
-        "Litmus",
+        "IoT Automation",
+        "Chaos Testing (Litmus)",
+        "Behavioral Data Analytics",
+        "VS Code",
         "Postman"
       ]
     },
@@ -482,7 +358,7 @@
           ]
         },
         {
-          "name": "Stock Market Prediction \u2013 A Comparative Analysis",
+          "name": "Stock Market Prediction – A Comparative Analysis",
           "journal": "IRJET, June-July 2021",
           "icon": "chart-line",
           "description": "Comparative framework evaluating predictive approaches for financial markets including sentiment analysis.",
@@ -508,7 +384,7 @@
       "title": "Certifications",
       "items": [
         {
-          "name": "Gold Certificate \u2013 Security Analyst",
+          "name": "Gold Certificate – Security Analyst",
           "details": "NASSCOM, Level 7, 2021"
         },
         {
