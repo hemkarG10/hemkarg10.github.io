@@ -1,832 +1,211 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Hemkar Goswami - Software Engineer and Product Management Student at UT Austin, specializing in cross-platform development and scalable applications">
-    <title>Hemkar Goswami - Portfolio</title>
-    <link rel="stylesheet" href="stylesheet.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0d1715">
+  <meta name="description" content="Hemkar Goswami is a software engineer and technical product manager building production AI, voice, data, and agentic systems.">
+  <meta property="og:title" content="Hemkar Goswami — AI product builder">
+  <meta property="og:description" content="Production AI systems, technical product leadership, and selected engineering work.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/hemkar-profile.JPG">
+  <title>Hemkar Goswami — AI product builder</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="stylesheet.css">
+  <script src="script.js" defer></script>
 </head>
-
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                Hemkar Goswami
-            </div>
-            <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
-                <span class="bar"></span>
-            </button>
-            <ul class="nav-menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#research">Research</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="top">
+    <a class="wordmark" href="#top" aria-label="Hemkar Goswami, home">HG<span>.</span></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span></span><span></span><span></span><span class="sr-only">Toggle navigation</span>
+    </button>
+    <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+      <a href="#work">Work</a><a href="#experience">Experience</a><a href="#about">About</a><a href="#contact">Contact</a>
     </nav>
+  </header>
 
-    <!-- Scroll Overlay Arrow Button -->
-    <div class="scroll-overlay" id="scrollOverlay">
-        <button class="scroll-overlay-btn" id="scrollOverlayBtn" aria-label="Go to next section">
-            <i class="fas fa-arrow-down"></i>
-        </button>
-    </div>
-
-    <!-- Horizontal carousel navigation (Experience/Projects) -->
-    <div class="carousel-arrows" id="carouselArrows" aria-hidden="true">
-        <button class="carousel-arrow-btn" id="carouselLeftBtn" type="button" aria-label="Previous item" disabled>
-            <i class="fas fa-chevron-left"></i>
-        </button>
-        <button class="carousel-arrow-btn" id="carouselRightBtn" type="button" aria-label="Next item" disabled>
-            <i class="fas fa-chevron-right"></i>
-        </button>
-    </div>
-
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-container">
-            <div class="hero-content">
-                <h1 class="hero-title">Hemkar Goswami</h1>
-                <h2 class="hero-subtitle">Product Developer (Software Engineer & Product Manager)</h2>
-                <p class="hero-description">
-                    Product Developer bridging the gap between engineering and product strategy. With a strong
-                    foundation in AI/ML and full-stack development, I build scalable, data-driven solutions that solve
-                    real user problems. Currently pursuing my Master's at UT Austin.
-                </p>
-                <div class="hero-buttons">
-                    <a href="#contact" class="btn btn-primary">Get in Touch</a>
-                    <a href="#experience" class="btn btn-secondary">View Experience</a>
-                </div>
-                <div class="hero-contact">
-                    <p><i class="fas fa-envelope"></i> hemkarg@utexas.edu</p>
-                    <p><i class="fas fa-phone"></i> (737) 328-2702</p>
-                    <p><i class="fas fa-map-marker-alt"></i> Austin, Texas</p>
-                </div>
-            </div>
-            <div class="hero-image">
-                <img src="assets/hemkar-profile.JPG" alt="Hemkar Goswami" class="profile-photo">
-            </div>
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="status-dot"></span>Austin, TX · AI engineering + technical product</p>
+        <h1 id="hero-title">I build AI products that survive contact with the <em>real world.</em></h1>
+        <p class="hero-intro">Software engineer and technical product manager with 3+ years shipping production AI, voice, data, and distributed systems for healthcare, financial services, and retail.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#work">Explore selected work <span aria-hidden="true">↘</span></a>
+          <a class="text-link" href="mailto:hemkargoswami@gmail.com">hemkargoswami@gmail.com <span aria-hidden="true">↗</span></a>
         </div>
+      </div>
+      <div class="hero-visual reveal">
+        <figure class="portrait-wrap">
+          <img src="assets/hemkar-profile.JPG" alt="Hemkar Goswami standing on a palm-lined road" width="3000" height="4000">
+          <figcaption>Builder between systems and strategy</figcaption>
+        </figure>
+        <div class="metric metric-one"><strong>100K+</strong><span>monthly AI calls</span></div>
+        <div class="metric metric-two"><strong>12,000</strong><span>ZIP codes scaled</span></div>
+      </div>
+      <div class="impact-strip reveal" aria-label="Career highlights">
+        <div><span>01</span><strong>~$10M ARR</strong><p>AI voice platform supported</p></div>
+        <div><span>02</span><strong>48%</strong><p>RAG answer relevance lift</p></div>
+        <div><span>03</span><strong>42%</strong><p>query latency reduction</p></div>
+      </div>
     </section>
 
-    <!-- Why Product Section -->
-    <section class="why-product">
-        <div class="container">
-            <h2 class="section-title">Why Product?</h2>
-            <p class="section-description">
-                As a Product Developer, I bridge the technical and strategic worlds. My background as a Software
-                Engineer allows me to build feasible, scalable solutions, while my Product Management experience ensures
-                those solutions solve the right problems and drive business value. I leverage AI and data to create
-                products that truly impact.
-            </p>
-        </div>
+    <section class="work section" id="work" aria-labelledby="work-title">
+      <div class="section-heading reveal">
+        <p class="kicker">Selected work / 2025–2026</p>
+        <h2 id="work-title">Recent systems,<br>not side-project filler.</h2>
+        <p>Every project links directly to its source. Each one explores a different boundary between AI reasoning and reliable software.</p>
+      </div>
+      <div class="project-list">
+        <article class="project project-featured reveal">
+          <div class="project-number">01</div>
+          <div class="project-main">
+            <div class="project-meta"><span>Computer use</span><span>Aug 2026</span></div>
+            <h3>Interface AI</h3>
+            <p>An automation layer that lets AI agents discover workflows in legacy applications once, then compiles them into deterministic Playwright capabilities with no LLM calls during replay.</p>
+            <ul class="tag-list" aria-label="Technologies"><li>Python</li><li>Playwright</li><li>Pydantic</li><li>Gemini</li><li>Streamlit</li></ul>
+          </div>
+          <div class="project-proof">
+            <p><span>Built for failure</span>Typed business outcomes, retry policies, PII-redacted logs, screenshots, and human-in-the-loop handoff.</p>
+            <a class="project-link" href="https://github.com/hemkarG10/Interface-AI" target="_blank" rel="noreferrer" aria-label="View Interface AI on GitHub">View repository <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+
+        <article class="project reveal">
+          <div class="project-number">02</div>
+          <div class="project-main">
+            <div class="project-meta"><span>Clinical analytics</span><span>Aug 2026</span></div>
+            <h3>Loblaw Bio</h3>
+            <p>A reproducible immune-cell analysis pipeline and interactive dashboard backed by a normalized relational model.</p>
+            <ul class="tag-list"><li>SQLite</li><li>Python</li><li>Pandas</li><li>Plotly</li><li>Streamlit</li></ul>
+          </div>
+          <div class="project-proof">
+            <p><span>Verified scale</span>10,500 samples · 3,500 subjects · 52,500 measurements · 23 automated tests.</p>
+            <div class="project-links">
+              <a class="project-link" href="https://github.com/hemkarG10/teiko-assignment" target="_blank" rel="noreferrer">Repository <span aria-hidden="true">↗</span></a>
+              <a class="project-link" href="https://teiko-assignment-lvysxa3aumywvhhnwdynny.streamlit.app/" target="_blank" rel="noreferrer">Live dashboard <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project reveal">
+          <div class="project-number">03</div>
+          <div class="project-main">
+            <div class="project-meta"><span>Agentic systems</span><span>Nov 2025</span></div>
+            <h3>Multi-agent consulting system</h3>
+            <p>Planner, analyst, and synthesizer agents coordinate financial analysis, run independent work in parallel, and produce structured reports.</p>
+            <ul class="tag-list"><li>OpenAI Agents SDK</li><li>Python</li><li>Pydantic</li><li>RAG</li><li>Excel</li></ul>
+          </div>
+          <div class="project-proof">
+            <p><span>Reliable orchestration</span>Validated agent interfaces, dependency-aware execution, semantic financial search, and trace exports.</p>
+            <a class="project-link" href="https://github.com/hemkarG10/consulting-agent" target="_blank" rel="noreferrer">View repository <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+
+        <article class="project reveal">
+          <div class="project-number">04</div>
+          <div class="project-main">
+            <div class="project-meta"><span>AI product analytics</span><span>Feb 2026</span></div>
+            <h3>Social network analytics</h3>
+            <p>A brand decision dashboard where specialized agents evaluate influencer performance, risk, and audience fit, then explain the recommendation.</p>
+            <ul class="tag-list"><li>React</li><li>FastAPI</li><li>Python</li><li>OpenAI</li><li>RAG-lite</li></ul>
+          </div>
+          <div class="project-proof">
+            <p><span>From metrics to action</span>Global filters, confidence scores, structured KPI explanations, and contextual follow-up chat.</p>
+            <a class="project-link" href="https://github.com/hemkarG10/social-network-dashboard" target="_blank" rel="noreferrer">View repository <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+      </div>
+      <div class="more-work reveal">
+        <p>More experiments</p>
+        <a href="https://github.com/hemkarG10/receptionist_agent" target="_blank" rel="noreferrer">AI receptionist agent <span>↗</span></a>
+        <a href="https://github.com/hemkarG10/f1-analytics-dashboard" target="_blank" rel="noreferrer">F1 analytics dashboard <span>↗</span></a>
+        <a href="https://github.com/hemkarG10/hackerrank-orchestrate-may26" target="_blank" rel="noreferrer">Support triage agent <span>↗</span></a>
+      </div>
     </section>
 
-    <!-- Experience Section -->
-    <section id="experience" class="experience">
-        <div class="container">
-            <h2 class="section-title">Professional Experience</h2>
-            <div class="experience-grid">
-                <div class="experience-card">
-                    <div class="experience-header">
-                        <h3>Product Management Consultant</h3>
-                        <span class="company">Brumley Institute for Graduate Entrepreneurship</span>
-                        <span class="duration">Jan 2026 - Present</span>
-                        <span class="location">Austin, USA</span>
-                    </div>
-                    <ul class="achievement-list">
-                        <li>Regulator AI (Enterprise AI / Compliance Tech): Led GTM beachhead validation and defined
-                            potential enterprise personas; developed a value proposition matrix enabling focused sales
-                            outreach.</li>
-                        <li>Built a Top-100 enterprise target account list prioritized by regulatory exposure and
-                            revenue potential; designed a 3-tier pricing strategy with a feature-differentiated value
-                            ladder.</li>
-                        <li>Created a financial model forecasting revenue, COGS, and LTV to support leadership pricing
-                            decisions; authored a sales negotiation playbook for enterprise deals.</li>
-                        <li>Muid Mecca Medical (MedTech): Evaluated licensing-only commercialization feasibility and
-                            built hospital & OEM licensing economics including pricing matrices.</li>
-                        <li>Developed long-range financial projections and an IPO-oriented pro-forma model; authored a
-                            global cleft workforce shortage report modeling supply-demand gaps.</li>
-                    </ul>
-                </div>
-
-                <div class="experience-card">
-                    <div class="experience-header">
-                        <h3>Data Engineer (Capstone Project)</h3>
-                        <span class="company">CoPointAI</span>
-                        <span class="duration">Jan 2026 - Present</span>
-                        <span class="location">Austin, USA</span>
-                    </div>
-                    <ul class="achievement-list">
-                        <li>Data Engineering & Architecture: Lead the integration of Microsoft Fabric Lakehouse and
-                            Warehouse environments, establishing a unified data foundation.</li>
-                        <li>SQL & Semantic Modeling: Architecting semantic models and T-SQL query templates to enable
-                            seamless translation of natural language questions into business insights.</li>
-                        <li>Scalability & Performance: Optimizing data ingestion and transformation pipelines to support
-                            a high-accuracy (target &ge; 80%) Natural Language Query (NLQ) engine.</li>
-                        <li>Cross-Functional Collaboration: Partnering with AI/ML and Full-Stack developers to implement
-                            a Retrieval-Augmented Generation (RAG) pipeline with grounded, cited responses.</li>
-                        <li>Product-Led Insight: Driving 'speed to insight' by developing features for proactive anomaly
-                            detection, reducing manual analyst workloads from hours to minutes.</li>
-                    </ul>
-                </div>
-
-                <div class="experience-card">
-                    <div class="experience-header">
-                        <h3>Software Engineer 2</h3>
-                        <span class="company">Zenoti</span>
-                        <span class="duration">August 2024 - June 2025</span>
-                        <span class="location">Hyderabad, India</span>
-                    </div>
-                    <ul class="achievement-list">
-                        <li>AI Scribe: Led end-to-end development from a 60-hour hackathon POC to a production platform
-                            used by 100+ beta customers.</li>
-                        <li>Architected a scalable, serverless AWS solution achieving 80-90% reduction in documentation
-                            time and 95%+ accuracy.</li>
-                        <li>Spearheaded the HyperConnect voice platform, determining scope and roadmap to scale to 100K+
-                            calls/month, contributing to $10M ARR.</li>
-                        <li>Implemented generative AI-powered call analysis and automation, resulting in a 30% increase
-                            in conversion rates.</li>
-                        <li>Engineered an in-house voice MVP utilizing Twilio, unlocking 25% new-logo revenue and
-                            supporting 50% YoY usage growth.</li>
-                        <li>Ensured compliance with complex international regulations (UK, Singapore, US), reducing
-                            critical delivery failures by 40%.</li>
-                        <li>Managed 10+ Sev-1 incidents via coordinated response; introduced sprint safeguards that
-                            improved release stability.</li>
-                    </ul>
-                </div>
-
-                <div class="experience-card">
-                    <div class="experience-header">
-                        <h3>Software Engineer</h3>
-                        <span class="company">Zenoti</span>
-                        <span class="duration">August 2022 - August 2024</span>
-                        <span class="location">Hyderabad, India</span>
-                    </div>
-                    <ul class="achievement-list">
-                        <li>Modernized C#/.NET Core monolith, boosting throughput by 30% and reducing P1 incidents by
-                            50% through strategic tech debt payoff.</li>
-                        <li>Integrated Instagram and WhatsApp Business APIs into HyperConnect, enhancing
-                            cross-functional collaboration and customer-facing solutions.</li>
-                        <li>Led deployment of third-party integrations (AWS QuickSight, Gainsight), resolving complex
-                            technical challenges via robust data pipelines.</li>
-                        <li>Utilized behavioral data analytics to drive UX improvements, reducing page load times by
-                            75%.</li>
-                        <li>Drove backlog prioritization and cross-platform delivery (Flutter + .NET), resulting in a
-                            10% speed boost and fewer crashes.</li>
-                    </ul>
-                </div>
-
-                <div class="experience-card">
-                    <div class="experience-header">
-                        <h3>Software Engineer Intern</h3>
-                        <span class="company">Zenoti</span>
-                        <span class="duration">February 2022 - August 2022</span>
-                        <span class="location">Hyderabad, India</span>
-                    </div>
-                    <ul class="achievement-list">
-                        <li>Translated ambiguous product requirements into precise technical specifications in Flutter
-                            while collaborating with PMs and senior engineers.</li>
-                        <li>Prototyped UI/UX enhancements and improved release efficiency by 20% via testing and
-                            tooling.</li>
-                        <li>Contributed to sprint planning and cross-team syncs for timely delivery.</li>
-                    </ul>
-                </div>
-
-                <div class="experience-card">
-                    <div class="experience-header">
-                        <h3>Research Intern</h3>
-                        <span class="company">IIT-BHU</span>
-                        <span class="duration">July 2021 - November 2021</span>
-                        <span class="location">Varanasi, India</span>
-                    </div>
-                    <ul class="achievement-list">
-                        <li>IoT & Machine Learning: Conducted research on time series analysis for IoT-based HVAC system
-                            automation for occupancy prediction.</li>
-                        <li>Analytical Models: Evaluated occupancy prediction using Linear Discriminant Analysis (LDA)
-                            and Dempster Schafer Evidence Theory, achieving up to 99.98% accuracy.</li>
-                        <li>Training: Facilitated peer-based research by training others in machine learning and data
-                            analysis for upcoming publications.</li>
-                    </ul>
-                </div>
-
-                <div class="experience-card">
-                    <div class="experience-header">
-                        <h3>Project Intern</h3>
-                        <span class="company">Hewlett Packard Enterprise (HPE)</span>
-                        <span class="duration">March 2021 - July 2021</span>
-                        <span class="location">Bengaluru, India</span>
-                    </div>
-                    <ul class="achievement-list">
-                        <li>CI/CD & Microservices: Spearheaded investigations into microservice application behavior
-                            within CI/CD frameworks.</li>
-                        <li>Orchestration: Developed and deployed Dockerized microservices on Kubernetes, performing
-                            automated load testing for scalability.</li>
-                        <li>Chaos Testing: Designed and executed chaos testing use cases using Litmus tools,
-                            strengthening system resilience by 25%.</li>
-                    </ul>
-                </div>
-
-                <div class="experience-card">
-                    <div class="experience-header">
-                        <h3>Project Intern</h3>
-                        <span class="company">BSNL</span>
-                        <span class="duration">June 2019</span>
-                        <span class="location">Guwahati, India</span>
-                    </div>
-                    <ul class="achievement-list">
-                        <li>Telecommunications: Learned operation, troubleshooting, and maintenance of complex telecom
-                            systems.</li>
-                        <li>Standardization: Initiated study to standardize project management practices.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+    <section class="experience section" id="experience" aria-labelledby="experience-title">
+      <div class="section-heading reveal">
+        <p class="kicker">Experience</p><h2 id="experience-title">Engineering depth.<br>Product judgment.</h2>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item reveal">
+          <div class="timeline-date">Jun 2026 — Present</div>
+          <div class="timeline-role"><h3>Technical Product Manager Intern</h3><p>Prox Shopping · Remote / Santa Monica</p></div>
+          <ul>
+            <li>Scaled an AI retail-intelligence data platform to 12,000 US ZIP codes on AWS ECS/Fargate within a $5,000 monthly cloud budget.</li>
+            <li>Engineered a 160-worker stateless scraper fleet and event-driven monitoring for failures, empty batches, and runtime-cost spikes.</li>
+            <li>Turned retailer-specific catalog constraints into prioritized delivery for Aldi, Trader Joe's, Albertsons, Vons, and Safeway.</li>
+          </ul>
+        </article>
+        <article class="timeline-item reveal">
+          <div class="timeline-date">Jan — May 2026</div>
+          <div class="timeline-role"><h3>AI Engineer Intern</h3><p>CoPointAI · McCombs Capstone</p></div>
+          <ul>
+            <li>Productionized RAG on Azure AI Foundry for financial natural-language queries, improving answer relevance 48%.</li>
+            <li>Built an LLM evaluation harness that reduced ungrounded responses 30% through automated scoring and human review.</li>
+            <li>Unified Microsoft Fabric Lakehouse and Warehouse data with PySpark, cutting query latency 42% and time-to-insight 60%.</li>
+          </ul>
+        </article>
+        <article class="timeline-item reveal">
+          <div class="timeline-date">Jan — May 2026</div>
+          <div class="timeline-role"><h3>Product Management Consultant</h3><p>Brumley Institute for Graduate Entrepreneurship</p></div>
+          <ul>
+            <li>Led customer discovery for Regulator AI and defined champion, buyer, and Top-100 target-account segments.</li>
+            <li>Designed three-tier SaaS pricing using revenue, COGS, LTV, and price-sensitivity models, plus an enterprise negotiation playbook.</li>
+          </ul>
+        </article>
+        <article class="timeline-item reveal">
+          <div class="timeline-date">Feb 2022 — Jun 2025</div>
+          <div class="timeline-role"><h3>Software Engineer → Software Engineer 2</h3><p>Zenoti · Hyderabad</p></div>
+          <ul>
+            <li>Led delivery of HyperConnect AI Voice across product, QA, and client teams, serving 100K+ monthly calls and supporting ~$10M ARR.</li>
+            <li>Built generative call analysis that lifted enterprise booking conversion 30%, and an in-house Twilio MVP that unlocked 25% new-customer revenue.</li>
+            <li>Migrated a C#/.NET voice monolith to AWS Lambda and SQS, owned international escalations, and mentored three engineers.</li>
+          </ul>
+        </article>
+      </div>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <div class="container">
-            <h2 class="section-title">Key Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-content">
-                        <h3>Multi-Agent Consulting System</h3>
-                        <ul class="project-achievements">
-                            <li>Architected a modular orchestration engine in Python that coordinates three distinct LLM
-                                agents (Performance, Risk, Audience) to parallelize influencer auditing.</li>
-                            <li>Reduced analysis time by ~90% compared to serial prompting by implementing a
-                                hierarchical multi-agent system using OpenAI Agents SDK.</li>
-                            <li>Engineered a RAG-Lite pipeline to inject historical influencer data into the context
-                                window, eliminating hallucinations in the 'Interactive Consultant'.</li>
-                            <li>Utilized Pydantic models for strict JSON Schema outputs, ensuring 100% data
-                                compatibility with the React frontend and dynamic UI rendering.</li>
-                        </ul>
-                        <div class="project-stats">
-                            <div class="stat">
-                                <span class="stat-number">GitHub</span>
-                                <span class="stat-label">Link</span>
-                            </div>
-                        </div>
-                        <a href="https://github.com/hemkarG10" target="_blank" class="btn btn-secondary"
-                            style="margin-top: 1rem;">View on GitHub</a>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-content">
-                        <h3>AI Receptionist Agent</h3>
-                        <ul class="project-achievements">
-                            <li>Engineered an AI-driven voice assistant utilizing Twilio for telephony integration and
-                                LLMs for real-time customer engagement and automated scheduling.</li>
-                            <li>Integrated Speech-to-Text (STT) and Text-to-Speech (TTS) pipelines to handle inbound
-                                calls and execute tool-calling for booking databases.</li>
-                            <li>Built a call analysis layer to transcribe and analyze interactions, identifying missed
-                                business opportunities and customer sentiment.</li>
-                            <li>Developed agent orchestration logic in Python, focusing on robust error handling,
-                                low-latency responses, and state management.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-content">
-                        <h3>Social Network Analytics Dashboard</h3>
-                        <ul class="project-achievements">
-                            <li>Integrated AI agents that continuously ingest and structure multi-platform engagement
-                                events to surface trend signals (topics, spikes, anomalies).</li>
-                            <li>Implemented semantic analysis on user comments to classify sentiment and detect key
-                                themes behind engagement shifts.</li>
-                            <li>Architected integrations with Enterprise Application Platforms (EAPs) via standardized
-                                APIs/webhooks to sync metrics into CRMs and internal hubs.</li>
-                            <li>Designed sensitive data-aware pipelines with anonymization and field-level filtering for
-                                enterprise-grade data governance.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-content">
-                        <h3>Disease Prediction Chatbot</h3>
-                        <ul class="project-achievements">
-                            <li>Built an AI-driven chatbot using Python, NLTK, and Keras to diagnose potential diseases
-                                based on patient-reported symptoms.</li>
-                            <li>Leveraged Natural Language Processing (NLP) to interpret user inputs and Deep Learning
-                                models to analyze symptom patterns.</li>
-                            <li>Achieved accurate preliminary diagnoses by employing a wide range of ML libraries from
-                                the Python ecosystem.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-content">
-                        <h3>Slope Stability AI Predictor (Mobile App)</h3>
-                        <ul class="project-achievements">
-                            <li>Developed a mobile application powered by artificial neural networks (ANN) to predict
-                                slope stability with 99% accuracy.</li>
-                            <li>Optimized factor-of-safety analysis for residual soil and rock slopes using SQL/Python,
-                                achieving a 20% model lift.</li>
-                            <li>Published research in Civil Engineering Journal (April 2022) showcasing Neural Networks
-                                in infrastructure safety.</li>
-                        </ul>
-                        <div class="project-stats">
-                            <div class="stat">
-                                <span class="stat-number">99%</span>
-                                <span class="stat-label">ANN Accuracy</span>
-                            </div>
-                            <div class="stat">
-                                <span class="stat-number">20%</span>
-                                <span class="stat-label">Model Lift</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-content">
-                        <h3>Real Estate Price Prediction during COVID-19</h3>
-                        <ul class="project-achievements">
-                            <li>Engineered an end-to-end ML pipeline quantifying COVID-19's impact on Mumbai real estate
-                                using Linear Regression, KNN, and K-Means Clustering.</li>
-                            <li>Transformed unstructured data via advanced feature engineering, achieving 99% model
-                                accuracy for pricing forecasts.</li>
-                            <li>Published in Springer Nature Computer Science, demonstrating the ability to translate
-                                applied AI research into peer-reviewed industry contributions.</li>
-                        </ul>
-                        <div class="project-stats">
-                            <div class="stat">
-                                <span class="stat-number">99%</span>
-                                <span class="stat-label">Accuracy</span>
-                            </div>
-                            <div class="stat">
-                                <span class="stat-number">Springer</span>
-                                <span class="stat-label">Publication</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-content">
-                        <h3>Stock Market Prediction – A Comparative Analysis</h3>
-                        <ul class="project-achievements">
-                            <li>Proposed an automated trading system designed to achieve high-accuracy stock predictions
-                                and issue profitable trade signals.</li>
-                            <li>Integrated mathematical functions with machine learning models and external factors such
-                                as news sentiment analysis.</li>
-                            <li>Developed a comparative framework utilizing the Python ecosystem to evaluate different
-                                predictive approaches.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-content">
-                        <h3>Healthcare Analytics Using Machine Learning</h3>
-                        <ul class="project-achievements">
-                            <li>Explored various use cases in the healthcare domain to demonstrate the efficacy of
-                                machine learning in clinical settings.</li>
-                            <li>Applied key ML algorithms to clinical and diagnostic data to improve patient outcome
-                                tracking.</li>
-                            <li>Documented and analyzed the application of predictive modeling in diverse healthcare
-                                data contexts.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-content">
-                        <h3>IoT-based HVAC System Automation</h3>
-                        <ul class="project-achievements">
-                            <li>Conducted time series analysis for automating HVAC systems based on real-time occupancy
-                                prediction.</li>
-                            <li>Evaluated optimal prediction methods using Linear Discriminant Analysis (LDA) and
-                                Dempster Schafer Evidence Theory.</li>
-                            <li>Achieved a high accuracy of 99.98% in predicting room occupancy, enabling significant
-                                energy savings.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-content">
-                        <h3>F1 Analytics Dashboard</h3>
-                        <ul class="project-achievements">
-                            <li>Built an end-to-end race analytics dashboard centralizing telemetry and session
-                                statistics into an interactive web app using Streamlit.</li>
-                            <li>Ingested F1 session data from public APIs/CSV datasets, then cleaned and joined
-                                multi-table results using Pandas.</li>
-                            <li>Designed a modular data pipeline separating raw ingestion, transformation, and
-                                visualization layers for plug-and-play functionality.</li>
-                            <li>Optimized transformations with vectorized Pandas operations, keeping dashboard
-                                interactions under one second.</li>
-                            <li>Containerized the app with Docker for reproducible deployment across cloud environments.
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-content">
-                        <h3>High-Performance Trading System Simulator</h3>
-                        <ul class="project-achievements">
-                            <li>Developed a production-style high-performance trading backend that ingests real-time
-                                market data via REST/WebSocket APIs.</li>
-                            <li>Engineered a Linux-based system using PostgreSQL for ACID-compliant storage and async
-                                multiprocessing for parallel strategy execution.</li>
-                            <li>Designed a real-time order execution engine with sub-millisecond latency targets and
-                                automated failure recovery for 99.9% uptime.</li>
-                            <li>Built a comprehensive risk management layer including position logging, balance
-                                monitoring, and PnL computation.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-content">
-                        <h3>Parallelization of Nucleotide Sequences</h3>
-                        <ul class="project-achievements">
-                            <li>Implemented the Smith-Waterman Algorithm for local sequence alignment to analyze
-                                randomly generated nucleotide sequences.</li>
-                            <li>Developed both serial and parallel processing versions of the algorithm to conduct a
-                                comparative analysis of computational performance.</li>
-                            <li>Optimized sequence alignment tasks, demonstrating the efficiency of parallel computing
-                                in processing complex genomic data.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-content">
-                        <h3>Courier Management System</h3>
-                        <ul class="project-achievements">
-                            <li>Engineered a web-based management portal to digitize operations, integrating Blockchain
-                                capabilities and smart contracts for booking/tracking.</li>
-                            <li>Implemented live geo-tracking via Google APIs to provide real-time package tracing for
-                                companies and customers.</li>
-                            <li>Developed a strong routing algorithm considering real-time traffic data to improve
-                                delivery efficiency.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-content">
-                        <h3>Omega Jobs - A Startup Theme</h3>
-                        <ul class="project-achievements">
-                            <li>Developed 'Omega Jobs' to connect low-literacy workers in India with minimum wage
-                                opportunities.</li>
-                            <li>Implemented a custom tag-based sorting algorithm to efficiently match employers with
-                                workers.</li>
-                            <li>Designed a highly accessible UI for users with limited literacy to create profiles and
-                                navigate independently.</li>
-                            <li>Structured a scalable freemium business model offering core services at no cost.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-content">
-                        <h3>Automatic Railway Crossing</h3>
-                        <ul class="project-achievements">
-                            <li>Designed an automated railway crossing prototype using Arduino microcontrollers and IR
-                                sensors to simulate safety automation.</li>
-                            <li>Programmed logic to detect approaching trains and automatically trigger gate actuation
-                                using motor drivers.</li>
-                            <li>Demonstrated the application of sensor-based control systems in preventing railway
-                                accidents.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-content">
-                        <h3>Hodu Academy (EdTech Startup)</h3>
-                        <ul class="project-achievements">
-                            <li>Orchestrated the full product lifecycle from ideation to launch, driving a 40% MoM user
-                                growth by validating solution fit.</li>
-                            <li>Architected a hybrid operational model integrating offline centers with a digital
-                                platform, driving 5x onboarding velocity.</li>
-                            <li>Led cross-functional pods via OKRs and backlog management, fostering a culture of
-                                disciplined execution.</li>
-                        </ul>
-                        <div class="project-stats">
-                            <div class="stat">
-                                <span class="stat-number">5x</span>
-                                <span class="stat-label">Onboarding</span>
-                            </div>
-                            <div class="stat">
-                                <span class="stat-number">40%</span>
-                                <span class="stat-label">User Growth</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <section class="about section" id="about" aria-labelledby="about-title">
+      <div class="about-grid">
+        <div class="about-statement reveal">
+          <p class="kicker">How I work</p><h2 id="about-title">The useful work lives between the boxes.</h2>
+          <p>I’m most effective where the architecture diagram meets the customer call: turning ambiguous requirements into systems that are measurable, explainable, and operable in production.</p>
         </div>
+        <div class="capabilities reveal">
+          <div><span>01</span><h3>AI systems</h3><p>RAG, evaluation, agent orchestration, structured outputs, tool calling, voice AI, and guardrails.</p></div>
+          <div><span>02</span><h3>Cloud engineering</h3><p>Python, TypeScript, C#/.NET, SQL, Kafka, AWS serverless, Azure AI Foundry, Docker, and Kubernetes.</p></div>
+          <div><span>03</span><h3>Product delivery</h3><p>Discovery, PRDs, roadmap tradeoffs, KPIs, pricing, enterprise integrations, and incident ownership.</p></div>
+        </div>
+      </div>
+      <div class="credentials reveal">
+        <div><p class="credential-label">Education</p><h3>MS, Information Technology & Management</h3><p>UT Austin, McCombs School of Business · 2026</p></div>
+        <div><p class="credential-label">Foundation</p><h3>B.Tech, Computer Science & Engineering</h3><p>Vellore Institute of Technology · 2022</p></div>
+        <div><p class="credential-label">Research</p><h3>Published machine-learning researcher</h3><p>Springer Nature and Wiley · 2022</p></div>
+      </div>
     </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="skills">
-        <div class="container">
-            <h2 class="section-title">Technical Skills</h2>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3>Programming Languages</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Python</span>
-                        <span class="skill-tag">Java</span>
-                        <span class="skill-tag">Flutter</span>
-                        <span class="skill-tag">.NET</span>
-                        <span class="skill-tag">C</span>
-                        <span class="skill-tag">C++</span>
-                        <span class="skill-tag">C#</span>
-                        <span class="skill-tag">Dart</span>
-                        <span class="skill-tag">SQL</span>
-                        <span class="skill-tag">HTML</span>
-                        <span class="skill-tag">CSS</span>
-                        <span class="skill-tag">JavaScript</span>
-                        <span class="skill-tag">PHP</span>
-                        <span class="skill-tag">Kotlin</span>
-                        <span class="skill-tag">MATLAB</span>
-                        <span class="skill-tag">R</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3>AI & Machine Learning</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">AI Orchestration</span>
-                        <span class="skill-tag">Prompt Engineering</span>
-                        <span class="skill-tag">LLMs</span>
-                        <span class="skill-tag">Generative AI</span>
-                        <span class="skill-tag">RAG</span>
-                        <span class="skill-tag">Multi-Agent Systems</span>
-                        <span class="skill-tag">Neural Networks</span>
-                        <span class="skill-tag">NLP</span>
-                        <span class="skill-tag">Computer Vision</span>
-                        <span class="skill-tag">Vector Embeddings</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3>Backend & Systems Engineering</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Microservices</span>
-                        <span class="skill-tag">Docker</span>
-                        <span class="skill-tag">Kubernetes</span>
-                        <span class="skill-tag">API Design</span>
-                        <span class="skill-tag">AWS (Lambda/S3)</span>
-                        <span class="skill-tag">PostgreSQL</span>
-                        <span class="skill-tag">Microsoft Fabric</span>
-                        <span class="skill-tag">CI/CD</span>
-                        <span class="skill-tag">Async/Multiprocessing</span>
-                        <span class="skill-tag">Blockchain</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3>Product & Strategy</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Product Management</span>
-                        <span class="skill-tag">GTM Strategy</span>
-                        <span class="skill-tag">Pricing & Packaging</span>
-                        <span class="skill-tag">Roadmap Prioritization</span>
-                        <span class="skill-tag">Stakeholder Management</span>
-                        <span class="skill-tag">Rapid Prototyping (MVP)</span>
-                        <span class="skill-tag">Agile Methodology</span>
-                        <span class="skill-tag">OKR Alignment</span>
-                        <span class="skill-tag">Management Consulting</span>
-                        <span class="skill-tag">UX Research</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3>Tools & Platforms</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Git</span>
-                        <span class="skill-tag">Linux (Ubuntu)</span>
-                        <span class="skill-tag">VS Code</span>
-                        <span class="skill-tag">Twilio</span>
-                        <span class="skill-tag">AWS QuickSight</span>
-                        <span class="skill-tag">Gainsight</span>
-                        <span class="skill-tag">Salesforce Platform</span>
-                        <span class="skill-tag">Litmus</span>
-                        <span class="skill-tag">Postman</span>
-                    </div>
-                </div>
-            </div>
+    <section class="contact section" id="contact" aria-labelledby="contact-title">
+      <p class="kicker reveal">Contact</p>
+      <div class="contact-grid">
+        <h2 id="contact-title" class="reveal">Have a hard problem<br>and an honest metric?</h2>
+        <div class="contact-copy reveal">
+          <p>I’m always interested in production AI, platform engineering, and technical product work where reliability matters as much as the demo.</p>
+          <a class="button button-primary" href="mailto:hemkargoswami@gmail.com">Start a conversation <span aria-hidden="true">↗</span></a>
         </div>
+      </div>
+      <footer>
+        <p>© <span id="year">2026</span> Hemkar Goswami</p>
+        <div><a href="https://github.com/hemkarG10" target="_blank" rel="noreferrer">GitHub</a><a href="https://www.linkedin.com/in/hemkarg" target="_blank" rel="noreferrer">LinkedIn</a><a href="tel:+17373282702">Phone</a></div>
+        <a href="#top">Back to top ↑</a>
+      </footer>
     </section>
-
-    <!-- Education Section -->
-    <section id="education" class="education">
-        <div class="container">
-            <h2 class="section-title">Education</h2>
-            <div class="education-grid">
-                <div class="education-card">
-                    <h3>The University of Texas at Austin</h3>
-                    <p class="degree">Master of Science, Information Technology & Management</p>
-                    <span class="graduation">Expected May 2026</span>
-                </div>
-                <div class="education-card">
-                    <h3>Vellore Institute of Technology (VIT)</h3>
-                    <p class="degree">Bachelor of Technology in Computer Science</p>
-                    <span class="graduation">Vellore, India</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Research Publications Section -->
-    <section id="research" class="research">
-        <div class="container">
-            <h2 class="section-title">Research Publications</h2>
-            <div class="research-grid">
-                <div class="research-card">
-                    <div class="research-icon"><i class="fas fa-microscope"></i></div>
-                    <h3>Slope Stability Prediction for Rock and Residual Soil Slopes</h3>
-                    <p class="research-journal">Civil Engineering Journal, April 2022</p>
-                    <p class="research-description">Published research on predicting slope stability using machine
-                        learning techniques (ANN), contributing to infrastructure safety.</p>
-                    <div class="research-highlights">
-                        <span class="highlight-tag">Machine Learning</span>
-                        <span class="highlight-tag">Neural Networks</span>
-                        <span class="highlight-tag">Data Analysis</span>
-                        <span class="highlight-tag">Infrastructure Safety</span>
-                    </div>
-                </div>
-                <div class="research-card">
-                    <div class="research-icon"><i class="fas fa-chart-line"></i></div>
-                    <h3>Real Estate Market Analysis During COVID-19</h3>
-                    <p class="research-journal">Springer Nature Computer Science</p>
-                    <p class="research-description">Research analyzing the impact of COVID-19 on Mumbai's real estate
-                        market using Linear Regression, KNN, and K-Means.</p>
-                    <div class="research-highlights">
-                        <span class="highlight-tag">Data Science</span>
-                        <span class="highlight-tag">Real Estate</span>
-                        <span class="highlight-tag">COVID-19 Impact</span>
-                        <span class="highlight-tag">ML Algorithms</span>
-                    </div>
-                </div>
-                <div class="research-card">
-                    <div class="research-icon"><i class="fas fa-chart-line"></i></div>
-                    <h3>Stock Market Prediction – A Comparative Analysis</h3>
-                    <p class="research-journal">IRJET, June-July 2021</p>
-                    <p class="research-description">Comparative framework evaluating predictive approaches for financial
-                        markets including sentiment analysis.</p>
-                    <div class="research-highlights">
-                        <span class="highlight-tag">Financial AI</span>
-                        <span class="highlight-tag">Sentiment Analysis</span>
-                        <span class="highlight-tag">Python</span>
-                    </div>
-                </div>
-                <div class="research-card">
-                    <div class="research-icon"><i class="fas fa-microscope"></i></div>
-                    <h3>Healthcare Analytics Using Machine Learning</h3>
-                    <p class="research-journal">IRJET, June-July 2021</p>
-                    <p class="research-description">Exploration of ML use cases in clinical and diagnostic settings for
-                        improved patient outcome tracking.</p>
-                    <div class="research-highlights">
-                        <span class="highlight-tag">HealthTech</span>
-                        <span class="highlight-tag">Predictive Modeling</span>
-                        <span class="highlight-tag">ML</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Certifications Section -->
-    <section class="certifications">
-        <div class="container">
-            <h2 class="section-title">Certifications</h2>
-            <div class="certifications-grid">
-                <div class="certification-card">
-                    <div class="certification-icon"><i class="fas fa-shield-alt"></i></div>
-                    <h3>Gold Certificate – Security Analyst</h3>
-                    <p>NASSCOM, Level 7, 2021</p>
-                </div>
-                <div class="certification-card">
-                    <div class="certification-icon"><i class="fas fa-database"></i></div>
-                    <h3>Databases and SQL for Data Science</h3>
-                    <p>IBM, November 2019</p>
-                </div>
-                <div class="certification-card">
-                    <div class="certification-icon"><i class="fas fa-microchip"></i></div>
-                    <h3>Fundamentals of Parallelism</h3>
-                    <p>Intel Corporation, October 2019</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Community Leadership Section -->
-    <section class="community">
-        <div class="container">
-            <h2 class="section-title">Community Leadership</h2>
-            <div class="community-grid">
-                <div class="community-card">
-                    <div class="community-icon"><i class="fas fa-hands-helping"></i></div>
-                    <h3>COVID-19 Relief Volunteer</h3>
-                    <p>Coordinated supply drives and awareness campaigns; recognized by the State Government of Uttar
-                        Pradesh in 2020.</p>
-                </div>
-                <div class="community-card">
-                    <div class="community-icon"><i class="fas fa-female"></i></div>
-                    <h3>Kashika Shakti Club</h3>
-                    <p>Drove tech and engagement strategies for women empowerment and child education.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Personal Interests Section -->
-    <section class="interests">
-        <div class="container">
-            <h2 class="section-title">My 5-9 after my 9-5!</h2>
-            <div class="interests-grid">
-                <div class="interest-card">
-                    <div class="interest-icon"><i class="fas fa-futbol"></i></div>
-                    <h3>Sports & Fitness</h3>
-                    <p>FC Barcelona, Messi, and regular fitness routines.</p>
-                </div>
-                <div class="interest-card">
-                    <div class="interest-icon"><i class="fas fa-tv"></i></div>
-                    <h3>Entertainment</h3>
-                    <p>The Office, anime, manga, and superhero movies.</p>
-                </div>
-                <div class="interest-card">
-                    <div class="interest-icon"><i class="fas fa-plane"></i></div>
-                    <h3>Travel</h3>
-                    <p>Exploring beaches and coastal destinations.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">Let's chat!</h2>
-            <p class="section-description">Reach out to me to talk software engineering, product management, or just to
-                connect.</p>
-
-            <div class="contact-methods">
-                <div class="contact-method">
-                    <h3><i class="fas fa-envelope"></i> Email</h3>
-                    <p>hemkarg@utexas.edu</p>
-                    <a href="mailto:hemkarg@utexas.edu" class="btn btn-primary contact-btn">
-                        Send Email
-                    </a>
-                </div>
-
-                <div class="contact-method">
-                    <h3><i class="fas fa-phone"></i> Phone</h3>
-                    <p>(737) 328-2702</p>
-                    <a href="tel:+17373282702" class="btn btn-secondary contact-btn">
-                        Call Now
-                    </a>
-                </div>
-
-                <div class="contact-method">
-                    <h3><i class="fas fa-map-marker-alt"></i> Location</h3>
-                    <p>Austin, Texas</p>
-                    <a href="https://maps.google.com/?q=Austin,Texas" target="_blank"
-                        class="btn btn-secondary contact-btn">
-                        View on Map
-                    </a>
-                </div>
-            </div>
-
-            <div class="social-links">
-                <a href="https://github.com/hemkarG10" target="_blank" class="social-link" title="GitHub">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/hemkarg" target="_blank" class="social-link" title="LinkedIn">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="mailto:hemkarg@utexas.edu" class="social-link" title="Email">
-                    <i class="fas fa-envelope"></i>
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2025 Hemkar Goswami. All rights reserved.</p>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
+  </main>
 </body>
-
 </html>

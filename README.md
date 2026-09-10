@@ -1,28 +1,34 @@
-# Hemkar Goswami - Personal Portfolio
+# Hemkar Goswami — portfolio
 
-A modern, responsive personal portfolio website with dark glassmorphism design.
+A responsive, static portfolio focused on production AI systems, technical product leadership, and recent engineering projects.
 
-## Features
+## What is included
 
-- Dark glassmorphism theme with smooth animations
-- Responsive design for all devices
-- Interactive navigation with smooth scrolling
-- Dynamic content loaded from JSON
+- Resume-backed career outcomes and current experience
+- Direct links to featured GitHub repositories and live demos
+- Responsive editorial layout with accessible navigation
+- Reduced-motion support, visible keyboard focus, a skip link, and a custom 404 page
+- Search and social metadata plus a custom favicon
 
-## Technologies
+## Stack
 
-- HTML5, CSS3, JavaScript
-- Font Awesome icons
-- Google Fonts (Inter)
+- Semantic HTML
+- Modern CSS with no framework
+- Small, dependency-free JavaScript for navigation, active-section state, and scroll reveals
+- Google Fonts: Manrope and DM Mono
 
-## Customization
+## Run locally
 
-- Edit `content.json` to update personal information
-- Modify `stylesheet.css` for styling changes
+```bash
+python3 -m http.server 8000
+```
+
+Then open `http://localhost:8000`.
+
+## Content updates
+
+The public page content lives in `index.html`. `content.json` is a compact structured snapshot of the profile, impact metrics, and featured-project links.
 
 ## Contact
 
-**Hemkar Goswami**
-- Email: hemkarg@utexas.edu
-- GitHub: [hemkarG10](https://github.com/hemkarG10)
-- LinkedIn: [hemkarg](https://www.linkedin.com/in/hemkarg)
+Hemkar Goswami · [Email](mailto:hemkargoswami@gmail.com) · [GitHub](https://github.com/hemkarG10) · [LinkedIn](https://www.linkedin.com/in/hemkarg)
