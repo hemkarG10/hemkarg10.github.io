@@ -1,13 +1,28 @@
 {
-  "lastUpdated": "2026-09-10",
+  "lastUpdated": "2026-11-02",
   "profile": {
     "name": "Hemkar Goswami",
-    "location": "Austin, TX",
-    "headline": "Software engineer and technical product manager building production AI systems",
+    "location": "San Francisco Bay Area",
+    "headline": "Founder of stealth AI startup SpeechTech and builder of production AI systems",
     "email": "hemkargoswami@gmail.com",
     "phone": "+1 737 328 2702",
     "github": "https://github.com/hemkarG10",
     "linkedin": "https://www.linkedin.com/in/hemkarg"
+  },
+  "venture": {
+    "name": "SpeechTech",
+    "status": "Stealth",
+    "role": "Founder",
+    "program": "NVIDIA Inception",
+    "benchmark": {
+      "tasks": 68,
+      "rounds": 9,
+      "repositories": ["FastAPI", "httpx"],
+      "tokensVsVanillaClaude": "9% fewer",
+      "costVsVanillaClaude": "9% lower",
+      "timeVsVanillaClaude": "10% slower",
+      "passingTasks": "68/68"
+    }
   },
   "highlights": [
     { "value": "100K+", "label": "monthly AI calls" },
